@@ -20,7 +20,7 @@ export const Footer = () => {
                     <Col size={12} sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
                             {/* LinkedIn button */}
-                            <a href="www.linkedin.com/in/gabriela-lopez-salgado" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/gabriela-lopez-salgado" target="_blank" rel="noopener noreferrer">
                                 <button className="social-button">
                                     <img src={''} alt="LinkedIn" />
                                 </button>
