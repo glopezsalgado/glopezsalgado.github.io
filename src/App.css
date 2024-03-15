@@ -305,6 +305,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner h1 {
   font-size: 45px;
+  text-align: left;
   /* Adjust font size for responsiveness */
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -318,6 +319,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner p {
   color: #333333;
   font-size: 16px;
+  text-align: left;
   /* Adjust font size for responsiveness */
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -340,6 +342,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 768px) {
   .banner h1 {
     font-size: 24px;
+    text-align: left;
     /* Adjust font size for smaller screens */
   }
 
@@ -352,11 +355,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 992px) {
   .banner {
     padding: 50px 0;
+
     /* Further reduce padding for smaller screens */
   }
 
   .banner h1 {
     font-size: 30px;
+    text-align: left;
     /* Adjust font size for smaller screens */
   }
 
@@ -390,7 +395,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .circular-image-container {
-  margin-right: 20px;
+  margin-right: 5px;
+  /*20*/
   /* Adjust margin to the right of the circular image */
 }
 
@@ -398,6 +404,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (min-width: 992px) {
   .banner .tagline {
     font-size: 20px;
+    text-align: left;
     /* Adjust font size for medium and larger screens */
   }
 }
