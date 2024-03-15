@@ -399,27 +399,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-@media (min-width: 992px) {
-  .banner .tagline {
-    font-size: 20px;
-    text-align: left;
-    /* Adjust font size for medium and larger screens */
-  }
-}
-
-/* Adjust column widths and spacing */
-@media (max-width: 768px) {
-
-  .banner h1,
-  .banner p {
-    text-align: left;
-    color: #333333;
-    white-space: nowrap;
-    /* Prevent wrapping */
-    /* Center align text on smaller screens */
-  }
-}
-
 /* for if image on right is boucing up and down*/
 @keyframes updown {
   0% {
