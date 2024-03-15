@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import gabi from "../assets/img/gabi.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -51,6 +51,16 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="aligh-items-center">
+                    <Col xs={12} md={6} xl={5}>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                                    <div className="circular-image-container">
+                                        <img src={gabi} alt="Header Img" />
+                                    </div>
+                                </div>}
+                        </TrackVisibility>
+                    </Col>
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
@@ -58,15 +68,6 @@ export const Banner = () => {
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`My name is Gabriela Ivonne Lopez-Salgado I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                                     <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
-                                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-                                </div>}
-                        </TrackVisibility>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt="Header Img" />
                                 </div>}
                         </TrackVisibility>
                     </Col>
