@@ -366,6 +366,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* Ensures the image conforms to the circular clipping mask */
 }
 
+.banner h1.full-name {
+  white-space: nowrap;
+  /* Ensures the text stays on one line */
+}
+
+.banner h1.intro {
+  white-space: nowrap;
+  /* Ensures the text stays on one line */
+}
+
 
 /* for if image on right is boucing up and down*/
 @keyframes updown {
