@@ -351,9 +351,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .circular-image-container {
-  width: 200px;
+  width: 300px;
   /* Adjust the width and height as needed */
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   border-radius: 50%;
   /* Creates the circular clipping mask */
