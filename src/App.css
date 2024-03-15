@@ -294,7 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Banner */
 .banner {
   margin-top: 0;
-  padding: 100px 0;
+  padding: 100px 20px;
   /* Reduced padding */
   background-color: #ffffff;
   /* background-image: url('./assets/img/banner-bg.png');
@@ -305,14 +305,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner h1 {
   font-size: 45px;
-  text-align: left;
   /* Adjust font size for responsiveness */
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   /* Ensures the header stays on one line */
   margin-bottom: 20px;
-  display: inline-block;
+  text-align: left;
   white-space: nowrap;
   /* Ensures the header stays on one line */
 }
@@ -320,11 +319,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner p {
   color: #333333;
   font-size: 16px;
-  text-align: left;
   /* Adjust font size for responsiveness */
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 100%;
+  text-align: left;
   /* Ensure the text does not overflow */
 }
 
@@ -337,7 +335,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* Make it responsive */
   overflow: hidden;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 20px;
   /* Adjust the right margin */
 }
 
@@ -357,32 +355,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .banner {
-    padding: 50px 0;
-
+    padding: 100px 50px;
     /* Further reduce padding for smaller screens */
   }
 
+  /*
   .banner h1 {
     font-size: 30px;
     text-align: left;
-    white-space: nowrap;
-    /* Adjust font size for smaller screens */
-  }
+    white-space: nowrap;*/
+  /* Adjust font size for smaller screens */
+  /* }*/
 
   .circular-image-container {
-    width: 60%;
-    margin-right: 10px;
+    margin-right: 15px;
     /* Adjust the right margin */
     /* Adjust width for smaller screens */
-  }
-}
-
-@media (max-width: 1200px) {
-  .banner {
-    padding: 70px 0;
-    /* Adjust padding for medium screens */
   }
 }
 
@@ -427,13 +417,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     white-space: nowrap;
     /* Prevent wrapping */
     /* Center align text on smaller screens */
-  }
-}
-
-@media (max-width: 1200px) {
-  .banner .container {
-    padding: 0 15px;
-    /* Adjust padding for medium screens */
   }
 }
 
