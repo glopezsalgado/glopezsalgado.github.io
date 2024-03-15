@@ -312,7 +312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner p {
-  color: #B8B8B8;
+  color: #333333;
   font-size: 16px;
   /* Adjust font size for responsiveness */
   letter-spacing: 0.8px;
@@ -404,6 +404,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner h1,
   .banner p {
     text-align: left;
+    color: #333333;
     /* Center align text on smaller screens */
   }
 }
