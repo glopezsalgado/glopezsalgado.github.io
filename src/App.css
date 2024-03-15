@@ -362,6 +362,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner h1 {
     font-size: 30px;
     text-align: left;
+    text-wrap: nowrap;
     /* Adjust font size for smaller screens */
   }
 
@@ -445,6 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Typing Text */
 .txt-rotate>.wrap {
   border-right: 0.08em solid #666;
+  text-align: left;
 }
 
 /*Skills*/
