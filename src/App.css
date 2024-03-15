@@ -369,6 +369,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+.banner .row {
+  align-items: center;
+  /* Align items vertically */
+}
+
+.banner .col-md-6 {
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+}
+
+.banner .col-md-6:last-child {
+  margin-top: 20px;
+  /* Add margin to the top of the right column */
+}
+
+.banner .circular-image-container {
+  margin-right: 20px;
+  /* Adjust margin to the right of the circular image */
+}
+
+
 @media (min-width: 992px) {
   .banner .tagline {
     font-size: 20px;
