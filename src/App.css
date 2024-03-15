@@ -313,6 +313,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* Ensures the header stays on one line */
   margin-bottom: 20px;
   display: inline-block;
+  white-space: nowrap;
   /* Ensures the header stays on one line */
 }
 
@@ -336,6 +337,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* Make it responsive */
   overflow: hidden;
   border-radius: 50%;
+  margin-right: 10px;
+  /* Adjust the right margin */
 }
 
 /* Adjust column widths for responsiveness */
@@ -348,6 +351,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .circular-image-container {
     width: 40%;
+    margin-right: 10px;
+    /* Adjust the right margin */
     /* Adjust width for smaller screens */
   }
 }
@@ -362,12 +367,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner h1 {
     font-size: 30px;
     text-align: left;
-    text-wrap: nowrap;
+    white-space: nowrap;
     /* Adjust font size for smaller screens */
   }
 
   .circular-image-container {
     width: 60%;
+    margin-right: 10px;
+    /* Adjust the right margin */
     /* Adjust width for smaller screens */
   }
 }
@@ -417,6 +424,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner p {
     text-align: left;
     color: #333333;
+    white-space: nowrap;
+    /* Prevent wrapping */
     /* Center align text on smaller screens */
   }
 }
