@@ -288,98 +288,110 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Banner */
+/* Banner */
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 100px 0;
+  /* Reduced padding */
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
-}
-
 .banner h1 {
-  font-size: 65px;
+  font-size: 45px;
+  /* Adjust font size for responsiveness */
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
+  /* Ensures the header stays on one line */
   margin-bottom: 20px;
-  display: block;
+  display: inline-block;
+  /* Ensures the header stays on one line */
 }
 
 .banner p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 16px;
+  /* Adjust font size for responsiveness */
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
-}
-
-.banner button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-}
-
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-}
-
-.banner button:hover svg {
-  margin-left: 25px;
-}
-
-.banner img {
-  animation: updown 3s linear infinite;
+  width: 100%;
+  /* Ensure the text does not overflow */
 }
 
 .circular-image-container {
-  width: 300px;
-  /* Adjust the width and height as needed */
-  height: 300px;
+  width: 50%;
+  /* Adjust width for responsiveness */
+  max-width: 300px;
+  /* Set maximum width */
+  height: auto;
+  /* Make it responsive */
   overflow: hidden;
   border-radius: 50%;
-  /* Creates the circular clipping mask */
 }
 
-.circular-image-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  /* Ensures the image conforms to the circular clipping mask */
-}
-
-/* Adjust font size for smaller screens */
+/* Adjust column widths for responsiveness */
 @media (max-width: 768px) {
-
-  .banner h1.full-name,
-  .banner h1.intro {
-    white-space: nowrap;
-    /* Ensures the text stays on one line */
-    font-size: 18px;
+  .banner h1 {
+    font-size: 24px;
     /* Adjust font size for smaller screens */
+  }
+
+  .circular-image-container {
+    width: 40%;
+    /* Adjust width for smaller screens */
   }
 }
 
+@media (max-width: 992px) {
+  .banner {
+    padding: 50px 0;
+    /* Further reduce padding for smaller screens */
+  }
 
+  .banner h1 {
+    font-size: 30px;
+    /* Adjust font size for smaller screens */
+  }
 
+  .circular-image-container {
+    width: 60%;
+    /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    padding: 70px 0;
+    /* Adjust padding for medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .banner .tagline {
+    font-size: 20px;
+    /* Adjust font size for medium and larger screens */
+  }
+}
+
+/* Adjust column widths and spacing */
+@media (max-width: 768px) {
+
+  .banner h1,
+  .banner p {
+    text-align: center;
+    /* Center align text on smaller screens */
+  }
+}
+
+@media (max-width: 1200px) {
+  .banner .container {
+    padding: 0 15px;
+    /* Adjust padding for medium screens */
+  }
+}
 
 /* for if image on right is boucing up and down*/
 @keyframes updown {
