@@ -288,15 +288,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Banner */
-/* Banner */
 .banner {
   margin-top: 0;
   padding: 100px 0;
   /* Reduced padding */
-  background-image: url('./assets/img/banner-bg.png');
+  background-color: #ffffff;
+  /* background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 .banner h1 {
@@ -403,7 +403,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .banner h1,
   .banner p {
-    text-align: center;
+    text-align: left;
     /* Center align text on smaller screens */
   }
 }
