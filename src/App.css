@@ -277,6 +277,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 100px 20px;
   background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .banner p {
