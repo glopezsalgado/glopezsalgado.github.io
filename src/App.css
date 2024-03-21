@@ -291,7 +291,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-  color: #ff00ae;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -299,7 +298,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   text-align: left;
   white-space: nowrap;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-left: 0px;
   overflow: hidden;
 }
@@ -324,7 +323,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   border-radius: 50%;
   margin-right: 0px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 /* Typing Text */
