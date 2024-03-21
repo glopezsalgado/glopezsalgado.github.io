@@ -49,15 +49,17 @@ export const Banner = () => {
 
     return (
         <section className="banner" id="home">
-            <Container fluid> // fluid to stretch across the entire width of the screen
+            <Container fluid>
                 <Row className="align-items-center">
                     <Col xs={12} md={6}>
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
                     </Col>
                     <Col xs={12} md={6}>
-                        <h1>{`My name is Gabriela Ivonne Lopez-Salgado`}</h1>
-                        <h1>{`I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                        <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
+                        <div>
+                            <h1>{`My name is Gabriela Ivonne Lopez-Salgado`}</h1>
+                            <h1>{`I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                            <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
+                        </div>
                     </Col>
                 </Row>
             </Container>
