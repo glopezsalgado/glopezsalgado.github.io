@@ -330,22 +330,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 1200px) {
   .banner {
-    padding: 10px 10px;
+    padding: 100px 10px;
   }
 
   .banner h1 {
-    font-size: 14px;
+    font-size: 45px;
   }
 
   .circular-image-container {
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
 }
 
 .banner .row {
   align-items: center;
-  /* Align items vertically */
 }
 
 .banner .col-md-6 {
@@ -360,7 +360,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .circular-image-container {
   margin-right: 5px;
   margin-left: 5px;
-  /* Adjust left margin */
 }
 
 
