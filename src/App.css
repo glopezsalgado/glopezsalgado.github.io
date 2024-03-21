@@ -134,12 +134,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   opacity: 0.75;
 }
 
-/* Hover and active state styling for navbar links */
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-  opacity: 1;
-}
-
 /* Styling for social icons */
 span.navbar-text {
   display: flex;
@@ -225,21 +219,6 @@ span.navbar-text {
 /* Styling for button hover effect 121212*/
 .navbar-text button:hover {
   color: #60cfff;
-}
-
-/* Styling for button hover background effect */
-.navbar-text button:hover::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-/* Styling for navbar toggler */
-nav.navbar .navbar-toggler:active,
-nav.navbar .navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
 }
 
 /* Styling for navbar toggler icon fff*/
@@ -342,6 +321,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* Make it responsive */
   overflow: hidden;
   border-radius: 50%;
+  margin-right: 10px;
+  /* Adjust the right margin */
   margin-right: 20px;
   /* Adjust the right margin */
 }
@@ -364,7 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 1200px) {
   .banner {
-    padding: 100px 50px;
+    padding: 100px 10px;
     /* Further reduce padding for smaller screens */
   }
 
