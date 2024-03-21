@@ -275,11 +275,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*********************************************** Banner ***********************************************/
 .banner {
   margin-top: 0;
-  padding: 100px 20px;
+  padding: 100px 0px;
   background-color: #ffffff;
   padding-left: 50px;
   padding-right: 50px;
-  margin-right: 50px;
 }
 
 .banner p {
@@ -293,7 +292,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner h1 {
   font-size: 30px;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
   line-height: 1;
   margin-bottom: 20px;
   text-align: left;
@@ -314,6 +313,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner .col-md-6:last-child {
   margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+
 }
 
 .banner .circular-image-container {
