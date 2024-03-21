@@ -279,19 +279,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #ffffff;
   padding-left: 50px;
   padding-right: 50px;
+  margin-right: 50px;
+
 }
 
 .banner h1 {
   font-size: 45px;
-  /* Adjust font size for responsiveness */
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  /* Ensures the header stays on one line */
   margin-bottom: 20px;
   text-align: left;
   white-space: nowrap;
-  /* Ensures the header stays on one line */
 }
 
 .banner p {
@@ -328,13 +327,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .banner {
     padding: 100px 10px;
   }
 
   .banner h1 {
     font-size: 45px;
+    margin-right: 5px;
+    overflow: hidden;
+    margin-left: 0px;
+
   }
 
   .circular-image-container {
