@@ -41,6 +41,8 @@ body {
     /*#fff*/
     #333333 !important;
   font-family: 'Centra', sans-serif !important;
+  overflow-x: hidden;
+
 }
 
 h1,
@@ -367,11 +369,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   /* Adjust font size for smaller screens */
+  .banner h1 {
+    font-size: 14px;
+    /* Adjusted font size for desktop screens */
+  }
 
   .circular-image-container {
     margin-right: 15px;
     /* Adjust the right margin */
   }
+
 }
 
 .banner .row {
