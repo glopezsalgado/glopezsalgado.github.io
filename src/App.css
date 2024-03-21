@@ -297,6 +297,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 100px 20px;
   /* Reduced padding */
   background-color: #ffffff;
+
+  padding-left: 50px;
+  /* Add padding to the left */
+  padding-right: 50px;
+  /* Add padding to the right */
   /* background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -361,18 +366,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     /* Further reduce padding for smaller screens */
   }
 
-  /*
-  .banner h1 {
-    font-size: 30px;
-    text-align: left;
-    white-space: nowrap;*/
   /* Adjust font size for smaller screens */
-  /* }*/
 
   .circular-image-container {
     margin-right: 15px;
     /* Adjust the right margin */
-    /* Adjust width for smaller screens */
   }
 }
 
