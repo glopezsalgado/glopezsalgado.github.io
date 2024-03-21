@@ -49,27 +49,15 @@ export const Banner = () => {
 
     return (
         <section className="banner" id="home">
-            <Container fluid>
+            <Container fluid> // fluid to stretch across the entire width of the screen
                 <Row className="align-items-center">
                     <Col xs={12} md={6}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <div className="circular-image-container">
-                                        <img src={gabi} alt="Header Img" />
-                                    </div>
-                                </div>}
-                        </TrackVisibility>
+                        <img className="circular-image-container" src={gabi} alt="Header Img" />
                     </Col>
                     <Col xs={12} md={6}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <h1>{`My name is Gabriela Ivonne Lopez-Salgado`}</h1>
-                                    <h1>{`I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
-                                </div>}
-                        </TrackVisibility>
+                        <h1>{`My name is Gabriela Ivonne Lopez-Salgado`}</h1>
+                        <h1>{`I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                        <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
                     </Col>
                 </Row>
             </Container>

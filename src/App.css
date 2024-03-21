@@ -283,16 +283,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 
-.banner h1 {
-  font-size: 45px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  text-align: left;
-  white-space: nowrap;
-}
-
 .banner p {
   color: #333333;
   font-size: 16px;
@@ -311,21 +301,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-right: 20px;
 }
 
-/* Adjust column widths for responsiveness */
-@media (max-width: 768px) {
-  .banner h1 {
-    font-size: 24px;
-    text-align: left;
-    /* Adjust font size for smaller screens */
-  }
-
-  .circular-image-container {
-    width: 40%;
-    margin-right: 10px;
-    /* Adjust the right margin */
-    /* Adjust width for smaller screens */
-  }
-}
 
 @media (max-width: 1024px) {
   .banner {
@@ -334,9 +309,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .banner h1 {
     font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: left;
+    white-space: nowrap;
     margin-right: 5px;
-    overflow: hidden;
     margin-left: 0px;
+    overflow: hidden;
+
+
 
   }
 
@@ -363,22 +346,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .circular-image-container {
   margin-right: 5px;
   margin-left: 5px;
-}
-
-
-/* for if image on right is boucing up and down*/
-@keyframes updown {
-  0% {
-    transform: translateY(-20px);
-  }
-
-  50% {
-    transform: translateY(20px);
-  }
-
-  100% {
-    transform: translateY(-20px);
-  }
 }
 
 /* Typing Text */
