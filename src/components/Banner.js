@@ -56,7 +56,7 @@ export const Banner = () => {
                         <div className="right-column">
                             <h1><span>My name is </span><span class="name">Gabriela Ivonne Lopez-Salgado</span></h1>
                             <h1>{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                            <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
+                            <p>My passion lies in computing all of the possible edge cases within a system.  I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                         </div>
                     </Col>
                 </Row>
