@@ -350,34 +350,68 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /*********************************************** Footer ***********************************************/
-.footer {
+footer {
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  z-index: 999;
+  /* Ensure the footer is above other content */
 }
 
-.footer .social-button img {
-  max-width: 50px;
+.footer .row {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 400px;
+  /* Adjusted margin-right to accommodate padding and negative margin */
+}
+
+
+
+.footer .lIn-social-button img {
+  max-width: 40px;
   height: auto;
   background-color: rgb(255, 56, 103);
   border-radius: 50%;
+  margin-left: 210px;
+  margin-right: 10px;
 }
 
-.footer .contact {
+.footer .git-social-button img {
+  max-width: 40px;
+  height: auto;
   background-color: rgb(255, 56, 103);
-  padding: 10px 18px;
+  border-radius: 50%;
+  margin-left: 90px;
+  margin-right: 10px;
+}
+
+.footer .phone {
+  background-color: rgb(255, 56, 103);
+  padding: 8px 18px;
   display: inline-block;
   border-radius: 24px;
   color: white;
+  margin-left: 10px;
+  margin-right: -10px;
+
+}
+
+.footer .email {
+  background-color: rgb(255, 56, 103);
+  padding: 8px 18px;
+  display: inline-block;
+  border-radius: 24px;
+  color: white;
+  margin-left: -40px;
+  margin-right: -20px;
+
 }
 
 .footer-divider {
   border-top: 1px solid #ccc;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
 /*********************************************** Skills ***********************************************/
