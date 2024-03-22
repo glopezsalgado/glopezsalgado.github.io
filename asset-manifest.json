@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.83652f5b.css",
-    "main.js": "/static/js/main.4456ec12.js",
+    "main.js": "/static/js/main.a1517b35.js",
     "static/js/453.7717dffa.chunk.js": "/static/js/453.7717dffa.chunk.js",
     "static/media/gabi.png": "/static/media/gabi.eed89e44be1e10639dba.png",
+    "static/media/mylogo1.png": "/static/media/mylogo1.155b1d16422148e7c00c.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -11,11 +12,11 @@
     "static/media/github-icon.png.webp": "/static/media/github-icon.png.df5a286f2102328ed289.webp",
     "index.html": "/index.html",
     "main.83652f5b.css.map": "/static/css/main.83652f5b.css.map",
-    "main.4456ec12.js.map": "/static/js/main.4456ec12.js.map",
+    "main.a1517b35.js.map": "/static/js/main.a1517b35.js.map",
     "453.7717dffa.chunk.js.map": "/static/js/453.7717dffa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83652f5b.css",
-    "static/js/main.4456ec12.js"
+    "static/js/main.a1517b35.js"
   ]
 }
