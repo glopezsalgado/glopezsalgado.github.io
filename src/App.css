@@ -334,6 +334,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-right: 100px;
   margin-left: 0px;
   padding-right: 0;
+  border: 5px solid rgb(255, 56, 103);
 }
 
 /* Typing Text */
