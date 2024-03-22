@@ -15,16 +15,16 @@ export const Footer = () => {
     return (
         <div>
             {/* Divider line */}
-            <div className="divider"></div>
+            <div className="footer-divider"></div>
             <footer className="footer">
                 <Container>
-                    <Row className="align-items-center">
+                    <Row className="align-items-center gx-2">
                         <Col sm={3} className="text-center text-sm-end">
                             {/* LinkedIn button */}
                             <a href="https://www.linkedin.com/in/gabriela-lopez-salgado" target="_blank" rel="noopener noreferrer">
                                 <button className="social-button"><img src={lInIcon} alt="LinkedIn" /></button></a>
                         </Col>
-                        <Col sm={3} className="text-center text-sm-end">
+                        <Col sm={3} className="text-center text-sm-ensd">
                             {/* GitHub button */}
                             <a href="https://github.com/glopezsalgado" target="_blank" rel="noopener noreferrer">
                                 <button className="social-button"><img src={gitIcon} alt="GitHub" /></button></a>
