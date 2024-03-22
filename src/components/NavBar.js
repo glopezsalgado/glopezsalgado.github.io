@@ -53,7 +53,7 @@ export const NavBar = () => {
                             <HashLink to='#technicalExperience'>
                                 <button className="vvd"><span>Technical Experience</span></button>
                             </HashLink>
-                            <HashLink to='#myCommunities'>
+                            <HashLink to='#communities'>
                                 <button className="vvd"><span>My Communities</span></button>
                             </HashLink>
 

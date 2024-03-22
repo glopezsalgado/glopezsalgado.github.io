@@ -7,13 +7,17 @@ import { Banner } from "./components/Banner";
 //import { Projects } from "./components/Projects";
 //import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { MyCommunities } from './components/MyCommunities';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
+      <MyCommunities />
+
       <Footer />
+
     </div>
   );
 }

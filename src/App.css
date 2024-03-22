@@ -116,7 +116,7 @@ nav.navbar {
 /* Styling for the navbar when scrolled 121212*/
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #aa00ff;
+  background-color: #b114ff;
 }
 
 /* Styling for the navbar brand link */
@@ -125,31 +125,12 @@ nav.navbar a.navbar-brand {
   padding-right: 30px;
 }
 
-/* Styling for the navbar links */
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #6bb700 !important;
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
-}
-
-/* Styling for social icons */
-span.navbar-text {
-  display: flex;
-  align-items: right;
-  padding-left: 80px;
-
-}
-
 /* Styling for buttons within navbar text */
 .navbar-text button {
   white-space: nowrap;
   /* Ensures text doesn't wrap */
   font-weight: 700;
-  color: #ff1288;
-  border: 1px solid #98cfaa;
+  color: #000000;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
@@ -177,7 +158,7 @@ span.navbar-text {
 
 /* Styling for button hover effect 121212*/
 .navbar-text button:hover {
-  color: #60cfff;
+  color: #FFDF13;
 }
 
 /* Styling for navbar toggler icon fff*/
@@ -223,7 +204,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
-  background-color: #bd6565;
+  background-color: #bf1515;
   height: 2px;
 }
 
@@ -317,10 +298,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*********************************************** Footer ***********************************************/
 .footer {
+  position: fixed;
+
   text-align: center;
-  z-index: 999;
   /* Ensure the footer is above other content */
   bottom: 3px;
+
+  width: 100%;
+  bottom: 0;
+  z-index: 9999;
+
 
 }
 
@@ -329,6 +316,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   margin-left: 200px;
   margin-right: 400px;
+
+
   /* Adjusted margin-right to accommodate padding and negative margin */
 }
 
@@ -380,7 +369,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .footer-divider {
   border-top: 1px solid #ccc;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
