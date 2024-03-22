@@ -122,6 +122,7 @@ nav.navbar.scrolled {
 /* Styling for the navbar brand link */
 nav.navbar a.navbar-brand {
   width: 9%;
+  padding-right: 30px;
 }
 
 /* Styling for the navbar links */
@@ -137,7 +138,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 /* Styling for social icons */
 span.navbar-text {
   display: flex;
-  align-items: center;
+  align-items: right;
+  padding-left: 80px;
+
 }
 
 .social-icon {
