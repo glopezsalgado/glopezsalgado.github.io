@@ -275,10 +275,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*********************************************** Banner ***********************************************/
 .banner {
   margin-top: 0;
-  padding: 100px 0px;
+  padding: 130px 0px;
   background-color: #ffffff;
   padding-left: 0px;
-  padding-right: 500px;
+  padding-right: 50px;
 }
 
 .banner p {
@@ -287,26 +287,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   text-align: left;
+
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .banner h1 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 0.1px;
-  line-height: 1;
+  letter-spacing: 0.05px;
+  line-height: 1.2;
   margin-bottom: 20px;
   text-align: left;
   white-space: nowrap;
   margin-right: 20px;
-  margin-left: 0px;
+  margin-left: 20px;
   overflow: hidden;
 }
 
 .banner .row {
   align-items: center;
-  margin-right: 20px;
-
-  margin-left: 20px;
+  margin-right: 200px;
+  margin-left: 0px;
 }
 
 .banner .col-md-6 {
@@ -318,7 +320,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
   margin-right: 0px;
   margin-left: 0px;
-
 }
 
 .banner .circular-image-container {
@@ -327,8 +328,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: auto;
   overflow: hidden;
   border-radius: 50%;
-  margin-right: 0px;
+  margin-right: 100px;
   margin-left: 0px;
+  padding-right: 0;
 }
 
 /* Typing Text */
