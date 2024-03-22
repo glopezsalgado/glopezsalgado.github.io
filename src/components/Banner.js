@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import gabi from "../assets/img/gabi.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -11,7 +9,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer"];
+    const toRotate = ["Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer"];
     const period = 2000;
 
     useEffect(() => {
@@ -55,9 +53,9 @@ export const Banner = () => {
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
                     </Col>
                     <Col xs={12} md={6}>
-                        <div>
-                            <h1>{`My name is Gabriela Ivonne Lopez-Salgado`}</h1>
-                            <h1>{`I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "an iOS Developer", "a Test Engineer", "a Researcher", "a Software Engineer", "a Web Developer", "a Web Designer", "a UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                        <div className="right-column">
+                            <h1><span>My name is </span><span class="name">Gabriela Ivonne Lopez-Salgado</span></h1>
+                            <h1>{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                             <p>My passion lies in computing all of the possible edge cases within a system.  I am experienced in mobile iOS app development, research, embedded systems, testing, and technical documentation.</p>
                         </div>
                     </Col>

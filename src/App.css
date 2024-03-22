@@ -308,6 +308,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 
+.banner .name {
+  color: rgb(255, 56, 103);
+}
+
 .banner .row {
   align-items: center;
   margin-right: 200px;
@@ -341,6 +345,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate>.wrap {
   border-right: 0.08em solid #666;
   text-align: left;
+  color: rgb(255, 56, 103);
+
 }
 
 /*********************************************** Skills ***********************************************/
