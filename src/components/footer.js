@@ -13,27 +13,31 @@ import lInIcon from "../assets/img/lIn4-removebg-preview.png";
 
 export const Footer = () => {
     return (
-        <footer className="footer">
-            <Container>
-                <Row className="align-items-center">
-                    <Col sm={3} className="text-center text-sm-end">
-                        {/* LinkedIn button */}
-                        <a href="https://www.linkedin.com/in/gabriela-lopez-salgado" target="_blank" rel="noopener noreferrer">
-                            <button className="social-button"><img src={lInIcon} alt="LinkedIn" /></button></a>
-                    </Col>
-                    <Col sm={3} className="text-center text-sm-end">
-                        {/* GitHub button */}
-                        <a href="https://github.com/glopezsalgado" target="_blank" rel="noopener noreferrer">
-                            <button className="social-button"><img src={gitIcon} alt="GitHub" /></button></a>
-                    </Col>
-                    <Col sm={3} className="text-center text-sm-end">
-                        <button className="email" onClick={() => window.open('mailto:gsalgado@umich.edu')}>gsalgado@umich.edu</button>
-                    </Col>
-                    <Col sm={3} className="text-center text-sm-end">
-                        <button className="phone" onClick={() => window.open('tel:+15179186443')}>517 - 918 - 6443</button>
-                    </Col>
-                </Row>
-            </Container>
-        </footer>
+        <div>
+            {/* Divider line */}
+            <div className="divider"></div>
+            <footer className="footer">
+                <Container>
+                    <Row className="align-items-center">
+                        <Col sm={3} className="text-center text-sm-end">
+                            {/* LinkedIn button */}
+                            <a href="https://www.linkedin.com/in/gabriela-lopez-salgado" target="_blank" rel="noopener noreferrer">
+                                <button className="social-button"><img src={lInIcon} alt="LinkedIn" /></button></a>
+                        </Col>
+                        <Col sm={3} className="text-center text-sm-end">
+                            {/* GitHub button */}
+                            <a href="https://github.com/glopezsalgado" target="_blank" rel="noopener noreferrer">
+                                <button className="social-button"><img src={gitIcon} alt="GitHub" /></button></a>
+                        </Col>
+                        <Col sm={3} className="text-center text-sm-end">
+                            <button className="contact" onClick={() => window.open('mailto:gsalgado@umich.edu')}>gsalgado@umich.edu</button>
+                        </Col>
+                        <Col sm={3} className="text-center text-sm-end">
+                            <button className="contact" onClick={() => window.open('tel:+15179186443')}>517 - 918 - 6443</button>
+                        </Col>
+                    </Row>
+                </Container>
+            </footer>
+        </div>
     )
 }
