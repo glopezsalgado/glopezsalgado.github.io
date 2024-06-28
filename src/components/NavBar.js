@@ -5,7 +5,7 @@ import mylogo from "../assets/img/mylogo1.png";
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
-    const [scroslled, setScrolled] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
