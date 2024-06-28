@@ -116,7 +116,10 @@ nav.navbar {
 /* Styling for the navbar when scrolled 121212*/
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #b114ff;
+  background-color: #3314ff;
+
+  /*   background-color: #b114ff; */
+
 }
 
 /* Styling for the navbar brand link */
