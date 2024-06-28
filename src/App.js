@@ -3,11 +3,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
+
+import { TechnicalExperience } from "./components/TechnicalExperience";
+
+
+
 //import { Skills } from "./components/Skills";
 //import { Projects } from "./components/Projects";
 //import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { MyCommunities } from './components/MyCommunities';
+import { LetsConnect } from "./components/LetsConnect";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 /*
@@ -31,7 +38,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Banner />} />
-          <Route path="/my-communities" element={<MyCommunities />} />
+          <Route path="/technicalExperience" element={<TechnicalExperience />} />
+          <Route path="/myCommunities" element={<MyCommunities />} />
+          <Route path="/connect" element={<LetsConnect />} />
         </Routes>
         <Footer />
       </div>
