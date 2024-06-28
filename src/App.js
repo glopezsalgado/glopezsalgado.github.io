@@ -8,7 +8,7 @@ import { Banner } from "./components/Banner";
 //import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { MyCommunities } from './components/MyCommunities';
-
+/*
 function App() {
   return (
     <div className="App">
@@ -21,29 +21,20 @@ function App() {
 }
 
 export default App;
-/*import logo from './logo.svg';
-import './App.css';
-
+*/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Banner />} />
+          <Route path="/my-communities" element={<MyCommunities />} />
+          s        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
 export default App;
-*/
