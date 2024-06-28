@@ -1,6 +1,3 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 //import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,18 +11,12 @@ import { MyCommunities } from './components/MyCommunities';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavBar />
-
-
-        <Routes>
-          <Route path="/" element={<Banner />} />
-          <Route path="/about" element={<MyCommunities />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <NavBar />
+      <Banner />
+      <MyCommunities />
+      <Footer />
+    </div>
   );
 }
 
