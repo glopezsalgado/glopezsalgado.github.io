@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 
 
-export const Contact = () => {
+export const LetsConnect = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
