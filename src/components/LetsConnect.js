@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { Container } from "react-bootstrap";
-
-
+import { Container, Form, Button } from "react-bootstrap";
 
 export const LetsConnect = () => {
     const [formData, setFormData] = useState({
@@ -20,7 +18,9 @@ export const LetsConnect = () => {
 
     const validate = () => {
         const errorMessage = {};
-        if (!formData.name || !formData.email || !formData.message) errorMessage = 'Fill in all necessary fields.';
+        if (!formData.name) errorMessage.name = 'Name is required';
+        if (!formData.email) errorMessage.email = 'Email is required';
+        if (!formData.message) errorMessage.message = 'Message is required';
         return errorMessage;
     };
 
@@ -34,9 +34,10 @@ export const LetsConnect = () => {
             setFormData({
                 name: '',
                 email: '',
-                phone: '',
+                phoneNumber: '',
                 message: ''
             });
+            setErrors({});
         } else {
             setErrors(formErrors);
         }
@@ -53,7 +54,7 @@ export const LetsConnect = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        isInvalid={!!errorMessage}
+                        isInvalid={!!errors.name}
                     />
                     <Form.Control.Feedback type="invalid">
                         {errors.name}
@@ -67,7 +68,7 @@ export const LetsConnect = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        isInvalid={!!errorMessage}
+                        isInvalid={!!errors.email}
                     />
                     <Form.Control.Feedback type="invalid">
                         {errors.email}
@@ -75,11 +76,11 @@ export const LetsConnect = () => {
                 </Form.Group>
 
                 <Form.Group controlId="formPhone">
-                    <Form.Label> Phone Number</Form.Label>
+                    <Form.Label>Phone Number</Form.Label>
                     <Form.Control
                         type="text"
-                        name="phone"
-                        value={formData.phone}
+                        name="phoneNumber"
+                        value={formData.phoneNumber}
                         onChange={handleChange}
                     />
                 </Form.Group>
@@ -92,10 +93,10 @@ export const LetsConnect = () => {
                         value={formData.message}
                         onChange={handleChange}
                         rows={3}
-                        isInvalid={!!errorMessage}
+                        isInvalid={!!errors.message}
                     />
                     <Form.Control.Feedback type="invalid">
-                        {errorMessage}
+                        {errors.message}
                     </Form.Control.Feedback>
                 </Form.Group>
 
