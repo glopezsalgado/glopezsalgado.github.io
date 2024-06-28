@@ -8,6 +8,8 @@ import { Banner } from "./components/Banner";
 //import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { MyCommunities } from './components/MyCommunities';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 /*
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Banner />} />
           <Route path="/my-communities" element={<MyCommunities />} />
-          s        </Routes>
+        </Routes>
         <Footer />
       </div>
     </Router>
