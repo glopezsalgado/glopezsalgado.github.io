@@ -479,6 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .myCommunities h2,
 .myCommunities h3 {
   text-align: left;
+  color: #0fac5b;
 }
 
 .myCommunities .row {
