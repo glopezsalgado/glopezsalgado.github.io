@@ -36,12 +36,14 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Routes>
-          <Route path="/" element={<Banner />} />
-          <Route path="/technicalExperience" element={<TechnicalExperience />} />
-          <Route path="/myCommunities" element={<MyCommunities />} />
-          <Route path="/connect" element={<LetsConnect />} />
-        </Routes>
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Banner />} />
+            <Route path="/technicalExperience" element={<TechnicalExperience />} />
+            <Route path="/myCommunities" element={<MyCommunities />} />
+            <Route path="/connect" element={<LetsConnect />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
