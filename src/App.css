@@ -224,6 +224,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+nav.navbar .menuText {
+  color: #61dafb;
+  align-items: center;
+}
+
 /*********************************************** Banner ***********************************************/
 .above-line {
   padding-left: 30px;
