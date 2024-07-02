@@ -504,7 +504,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .myCommunities .video-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
