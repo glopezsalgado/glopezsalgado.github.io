@@ -104,11 +104,11 @@ p.danger {
 
 .content {
   flex: 1;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 130px 0px;
   background-color: #ffffff;
   padding-left: 0px;
-  padding-right: 50px;
+  padding-right: 0px;
 }
 
 /************************************ Navbar Css ************************************/
@@ -479,7 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .myCommunities h2,
 .myCommunities h3 {
   text-align: left;
-  color: #0fac5b;
+  color: #0f4eac;
 }
 
 .myCommunities .row {
