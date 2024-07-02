@@ -28,7 +28,6 @@ export const MyCommunities = () => {
             <Container fluid>
                 <h2>Society of Hispanic Professional Engineers (SHPE)</h2>
                 <h3>Podcasting</h3>
-
                 <div className="row">
                     <div className="column left">
                         <p>In 2023 I founded and produced, with a committee, 6 Spotify podcast sessions and YouTube videos interviewing SHPE-UM alumni to strengthen our alumni network and speak about topics involving graduate school, life as an engineer, and imposters syndrome.</p>
