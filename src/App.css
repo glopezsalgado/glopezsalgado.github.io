@@ -225,9 +225,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 nav.navbar .menuText {
-  color: #61dafb;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* Ensures it takes up the remaining space */
 }
+
 
 /*********************************************** Banner ***********************************************/
 .above-line {
@@ -484,12 +488,11 @@ nav.navbar .menuText {
 .myCommunities h2,
 .myCommunities h3 {
   text-align: left;
-  /*  color: #ac0f8f;*/
 }
 
 .myCommunities p {
   vertical-align: text-top;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 .myCommunities .row {
