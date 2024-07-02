@@ -108,10 +108,10 @@ export const MyCommunities = () => {
                        /* Text on the right side */
 
                         <div class="row">
-                            <div class="column in left">
+                            <div class="columninleft">
                                 <button onClick={prevSlide} className="prev">◀</button>
                             </div>
-                            <div class="column in middle">
+                            <div class="columninmiddle">
                                 <div className="video-container">
                                     {videoLinks.slice(currentSlideIndex, currentSlideIndex + 4).map((videoLink, index) => (
                                         <iframe

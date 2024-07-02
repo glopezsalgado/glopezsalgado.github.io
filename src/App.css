@@ -483,3 +483,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .myCommunities h3 {
   text-align: left;
 }
+
+.myCommunities .row {
+  display: flex;
+}
+
+.myCommunities .column {
+  flex: 1;
+  padding: 10px;
+}
+
+.myCommunities .left {
+  text-align: left;
+}
+
+.myCommunities .right {
+  text-align: right;
+}
+
+.myCommunities .columninleft {
+  text-align: left;
+}
+
+.myCommunities .columninmiddle {
+  text-align: center;
+}
+
+.myCommunities .columninright {
+  text-align: right;
+}
