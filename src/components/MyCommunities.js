@@ -35,7 +35,7 @@ export const MyCommunities = () => {
                     <div className="column right">
                         <button onClick={prevSlide} className="prev">◀</button>
                         <div className="video-container">
-                            {videoLinks.slice(currentSlideIndex, currentSlideIndex + 3).map((videoLink, index) => (
+                            {videoLinks.slice(currentSlideIndex, currentSlideIndex + 4).map((videoLink, index) => (
                                 <iframe
                                     key={index}
                                     width="300"
