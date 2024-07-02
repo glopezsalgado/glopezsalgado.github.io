@@ -225,10 +225,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 nav.navbar .menuText {
+  text-align: center;
+  color: #bf7015;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  color: #bf7015;
   /* Ensures it takes up the remaining space */
 }
 
@@ -492,7 +493,7 @@ nav.navbar .menuText {
 
 .myCommunities p {
   vertical-align: text-top;
-  padding-bottom: 60px;
+  padding-bottom: 75px;
 }
 
 .myCommunities .row {
