@@ -476,16 +476,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* MY COMMUNITIES*/
-.myCommunities h2 {
-  text-align: left;
-}
-
+.myCommunities h2,
 .myCommunities h3 {
   text-align: left;
 }
 
 .myCommunities .row {
   display: flex;
+  align-items: center;
+  /* Center align vertically */
 }
 
 .myCommunities .column {
@@ -498,17 +497,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .myCommunities .right {
-  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.myCommunities .columninleft {
-  text-align: left;
+.myCommunities .video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.myCommunities .columninmiddle {
-  text-align: center;
+.myCommunities .prev,
+.myCommunities .next {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-.myCommunities .columninright {
-  text-align: right;
+@media (max-width: 600px) {
+  .myCommunities .row {
+    flex-direction: column;
+  }
+
+  .myCommunities .right {
+    text-align: center;
+  }
 }
