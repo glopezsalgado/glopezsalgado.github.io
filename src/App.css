@@ -226,9 +226,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 nav.navbar .menuText {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   width: 100%;
+  color: #bf7015;
   /* Ensures it takes up the remaining space */
 }
 
