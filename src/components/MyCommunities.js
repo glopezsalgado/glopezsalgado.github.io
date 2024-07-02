@@ -99,25 +99,53 @@ export const MyCommunities = () => {
             <Container fluid>
                 <h2>Society of Hispanic Professional Engineers (SHPE)</h2>
                 <h3>Podcasting</h3>
-                <p>In 2023 I founded and produced, with a committee, 6 Spotify podcast sessions and YouTube videos interviewing SHPE-UM alumni to strengthen our alumni network and speak about topics involving graduate school, life as an engineer, and imposters syndrome.
-                </p>
-                <div className="video-container">
-                    {videoLinks.slice(currentSlideIndex, currentSlideIndex + 4).map((videoLink, index) => (
-                        <iframe
-                            key={index}
-                            width="300"
-                            height="169"
-                            src={videoLink}
-                            title={`Podcasting Video ${currentSlideIndex + index + 1}`}
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    ))}
+
+                <div class="row">
+                    <div class="column left">
+                        <p>In 2023 I founded and produced, with a committee, 6 Spotify podcast sessions and YouTube videos interviewing SHPE-UM alumni to strengthen our alumni network and speak about topics involving graduate school, life as an engineer, and imposters syndrome.
+                        </p>                    </div>
+                    <div class="column right">
+                       /* Text on the right side */
+
+                        <div class="row">
+                            <div class="column in left">
+                                <button onClick={prevSlide} className="prev">◀</button>
+                            </div>
+                            <div class="column in middle">
+                                <div className="video-container">
+                                    {videoLinks.slice(currentSlideIndex, currentSlideIndex + 4).map((videoLink, index) => (
+                                        <iframe
+                                            key={index}
+                                            width="300"
+                                            height="169"
+                                            src={videoLink}
+                                            title={`Podcasting Video ${currentSlideIndex + index + 1}`}
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                        ></iframe>
+                                    ))}
+                                </div>
+
+                            </div>
+                            <div class="column in right">
+
+                                <button onClick={nextSlide} className="next">▶</button>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
+
+
+
+
+                /* rooooooow */
+
+
                 <div>
-                    <button onClick={prevSlide} className="prev">◀</button>
-                    <button onClick={nextSlide} className="next">▶</button>
                 </div>
 
                 <h3>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h3>
