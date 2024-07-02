@@ -499,6 +499,8 @@ nav.navbar .menuText {
 .myCommunities .row {
   display: flex;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
   /* Center align vertically */
 }
 
