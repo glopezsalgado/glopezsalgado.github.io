@@ -99,7 +99,8 @@ export const MyCommunities = () => {
             <Container fluid>
                 <h2>Society of Hispanic Professional Engineers (SHPE)</h2>
                 <h3>Podcasting</h3>
-                <h3>SHPE'd Abroad Program</h3>
+                <h3>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h3>
+                <h3>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h3>
                 <div className="video-container">
                     {videoLinks.slice(currentSlideIndex, currentSlideIndex + 4).map((videoLink, index) => (
                         <iframe
