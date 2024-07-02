@@ -484,11 +484,12 @@ nav.navbar .menuText {
 .myCommunities h2,
 .myCommunities h3 {
   text-align: left;
-  color: #ac0f8f;
+  /*  color: #ac0f8f;*/
 }
 
 .myCommunities p {
   vertical-align: text-top;
+  padding-bottom: 80px;
 }
 
 .myCommunities .row {
