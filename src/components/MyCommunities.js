@@ -99,8 +99,8 @@ export const MyCommunities = () => {
             <Container fluid>
                 <h2>Society of Hispanic Professional Engineers (SHPE)</h2>
                 <h3>Podcasting</h3>
-                <h3>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h3>
-                <h3>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h3>
+                <p>In 2023 I founded and produced, with a committee, 6 Spotify podcast sessions and YouTube videos interviewing SHPE-UM alumni to strengthen our alumni network and speak about topics involving graduate school, life as an engineer, and imposters syndrome.
+                </p>
                 <div className="video-container">
                     {videoLinks.slice(currentSlideIndex, currentSlideIndex + 4).map((videoLink, index) => (
                         <iframe
@@ -119,13 +119,9 @@ export const MyCommunities = () => {
                     <button onClick={prevSlide} className="prev">◀</button>
                     <button onClick={nextSlide} className="next">▶</button>
                 </div>
-                <h3>SHPE'd Abroad Program</h3>
-                <h4>Dominican Republic</h4>
-                <h3>SHPE Nights</h3>
-                <h2>Women In Science and Engineering - Residence Program (WISE-RP)</h2>
-                <h2>Michigan Robotics Department</h2>
-                <h4>Dominican Republic</h4>
-                <h3>SHPE Nights</h3>
+
+                <h3>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h3>
+                <h3>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h3>
                 <h2>Women In Science and Engineering - Residence Program (WISE-RP)</h2>
                 <h2>Michigan Robotics Department</h2>
             </Container>
