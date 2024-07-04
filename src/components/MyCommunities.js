@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import PRarduinos from "../assets/img/PuertoRico/PRarduinos.jpg";
 import PRsoldering from "../assets/img/PuertoRico/PRsoldering.jpg";
