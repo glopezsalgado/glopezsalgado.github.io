@@ -415,7 +415,9 @@ nav.navbar .menuText {
 
 .footer .row {
   display: flex;
-  justify-content: center;
+  /*  justify-content: center !important;*/
+  justify-content: space-around;
+  align-items: center;
   /*margin-left: 200px;
   margin-right: 400px;*/
 }
@@ -461,6 +463,7 @@ nav.navbar .menuText {
   color: white;
   margin-left: 15px;
   margin-right: -75px;
+  margin-bottom: 10px;
 
 }
 
