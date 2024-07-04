@@ -1,5 +1,9 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
+import PRarduinos from "../assets/img/PuertoRico/PRarduinos.jpg";
+import PRsoldering from "../assets/img/PuertoRico/PRsoldering.jpg";
+import PRgroup from "../assets/img/PuertoRico/PRgroup.jpeg";
+
 
 export const MyCommunities = () => {
     const videoLinks = [
@@ -54,6 +58,13 @@ export const MyCommunities = () => {
 
                 <h3>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h3>
                 <h3>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h3>
+                <h3>2022 SHPE'd Abroad Program in Puerto Rico</h3>
+                <Row className="align-items-center">
+                    <img src={PRarduinos} alt="PRarduinos Img" />
+                    <img src={PRsoldering} alt="PRsoldering Img" />
+                    <img src={PRgroup} alt="PRgroup Img" />
+
+                </Row>
                 <h2>Women In Science and Engineering - Residence Program (WISE-RP)</h2>
                 <h2>Michigan Robotics Department</h2>
             </Container>
