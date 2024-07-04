@@ -145,6 +145,28 @@ nav.navbar a.navbar-brand {
   /* Right padding to space out from the links */
 }
 
+/* Styling for navbar links */
+.navbar-link {
+  color: #000;
+  /* Default link color */
+  padding: 0 15px;
+  /* Padding around the links */
+  text-decoration: none;
+  /* Remove underline */
+  display: flex;
+  /* Ensures it takes up the remaining space */
+  align-items: center;
+  /* Center align items vertically */
+}
+
+/* Styling for active navbar link */
+.navbar-link.active {
+  font-weight: bold;
+  /* Bold for active link */
+  color: #ffdf13;
+  /* Color for active link */
+}
+
 /* Styling for buttons within navbar text */
 .navbar-text button {
   white-space: nowrap;
