@@ -162,9 +162,8 @@ nav.navbar a.navbar-brand {
 /* Styling for active navbar link */
 .navbar-link.active {
   font-weight: bold;
-  /* Bold for active link */
-  color: #ffdf13 !important;
-  /* Color for active link */
+  background-color: rgb(255, 56, 103) !important;
+  color: white !important;
 }
 
 /* Styling for buttons within navbar text */
