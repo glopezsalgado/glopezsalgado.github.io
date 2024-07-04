@@ -141,7 +141,9 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   width: 9%;
   /* Width of the logo */
-  padding-right: 400px;
+  padding-left: 50px;
+
+  padding-right: 300px;
   /* Right padding to space out from the links */
 }
 
@@ -165,8 +167,6 @@ nav.navbar a.navbar-brand {
   background-color: rgb(255, 56, 103) !important;
   color: white !important;
   border-radius: 4px;
-  padding: 18px 60px;
-
 }
 
 /* Styling for buttons within navbar text */
