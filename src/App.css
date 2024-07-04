@@ -105,6 +105,7 @@ p.danger {
 .content {
   flex: 1;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 130px 0px;
   background-color: #ffffff;
   padding-left: 0px;
@@ -404,16 +405,10 @@ nav.navbar .menuText {
 /*********************************************** Footer ***********************************************/
 .footer {
   position: fixed;
-
   text-align: center;
-  /* Ensure the footer is above other content */
-  bottom: 3px;
-
   width: 100%;
   bottom: 0;
   z-index: 9999;
-
-
 }
 
 .footer .row {
@@ -421,12 +416,7 @@ nav.navbar .menuText {
   justify-content: center;
   margin-left: 200px;
   margin-right: 400px;
-
-
-  /* Adjusted margin-right to accommodate padding and negative margin */
 }
-
-
 
 .footer .git-social-button img {
   max-width: 40px;
