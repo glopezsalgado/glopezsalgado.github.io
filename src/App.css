@@ -277,18 +277,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Styling for the navigation menu */
-nav.navbar .me-auto {
+nav.navbar .menuText {
   color: #bf7015;
-
-  width: 100%;
   /* Text color */
-  text-align: center;
   display: flex;
   /* Flexbox for menu items */
   justify-content: space-between;
   /* Evenly spaces out menu items */
-  flex-grow: 1;
-  /* Takes up the remaining space */
+  align-items: center;
+  /* Center aligns items vertically */
+  width: 100%;
+  /* Ensures it takes up the remaining space */
+  padding-left: 30px;
+  /* Padding to the left to create space from the logo */
 }
 
 
