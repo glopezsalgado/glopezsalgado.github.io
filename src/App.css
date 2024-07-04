@@ -159,6 +159,9 @@ nav.navbar a.navbar-brand {
   /* Ensures it takes up the remaining space */
   align-items: center;
   /* Center align items vertically */
+  flex: 1;
+  text-align: center;
+  padding: 0 15px;
 }
 
 /* Styling for active navbar link */
@@ -302,18 +305,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Styling for the navigation menu */
 nav.navbar .menuText {
-  color: #bf7015;
-  /* Text color */
   display: flex;
-  /* Flexbox for menu items */
   justify-content: space-between;
-  /* Evenly spaces out menu items */
-  align-items: center;
-  /* Center aligns items vertically */
   width: 100%;
-  /* Ensures it takes up the remaining space */
-  padding-left: 30px;
-  /* Padding to the left to create space from the logo */
 }
 
 
