@@ -112,29 +112,37 @@ p.danger {
 }
 
 /************************************ Navbar Css ************************************/
+/************************************ Navbar Css ************************************/
 /* Styling for the navbar */
 nav.navbar {
   padding: 18px 0;
+  /* Padding on the top and bottom */
   position: fixed;
+  /* Fixes the navbar to the top of the screen */
   width: 100%;
+  /* Full width */
   top: 0;
+  /* Positioned at the very top */
   z-index: 9999;
+  /* Ensures the navbar is on top of other elements */
   transition: 0.32s ease-in-out;
+  /* Smooth transition for padding changes */
 }
 
-/* Styling for the navbar when scrolled 121212*/
+/* Styling for the navbar when scrolled */
 nav.navbar.scrolled {
   padding: 0px 0;
+  /* Removes padding on scroll */
   background-color: #9514ff;
-
-  /*   background-color: #b114ff; */
-
+  /* Changes background color when scrolled */
 }
 
-/* Styling for the navbar brand link */
+/* Styling for the navbar brand link (logo) */
 nav.navbar a.navbar-brand {
   width: 9%;
+  /* Width of the logo */
   padding-right: 30px;
+  /* Right padding to space out from the links */
 }
 
 /* Styling for buttons within navbar text */
@@ -142,95 +150,143 @@ nav.navbar a.navbar-brand {
   white-space: nowrap;
   /* Ensures text doesn't wrap */
   font-weight: 700;
+  /* Bold text */
   color: #000000;
+  /* Black text color */
   padding: 18px 34px;
+  /* Padding around the button text */
   font-size: 18px;
+  /* Font size of the button text */
   margin-left: 18px;
+  /* Margin to the left */
   position: relative;
+  /* Allows positioning of pseudo-elements */
   background-color: transparent;
+  /* Transparent background */
   transition: 0.3s ease-in-out;
+  /* Smooth transition for hover effect */
 }
 
 /* Styling for button text */
 .navbar-text button span {
   z-index: 1;
+  /* Ensures text is above the background */
 }
 
 .navbar-text button::before {
   content: "";
+  /* Empty content for the pseudo-element */
   width: 0%;
+  /* Initially zero width for hover effect */
   height: 100%;
+  /* Full height */
   position: absolute;
+  /* Positioned relative to the button */
   background-color: #f6b800;
+  /* Background color of the hover effect */
   left: 0;
+  /* Start from the left */
   top: 0;
+  /* Start from the top */
   z-index: -1;
+  /* Behind the text */
   transition: 0.3s ease-in-out;
+  /* Smooth transition for hover effect */
 }
 
-/* Styling for button hover effect 121212*/
+/* Styling for button hover effect */
 .navbar-text button:hover {
   color: #FFDF13;
+  /* Changes text color on hover */
 }
 
-/* Styling for navbar toggler icon fff*/
+/* Styling for navbar toggler icon */
 nav.navbar .navbar-toggler-icon {
   width: 24px;
+  /* Width of the icon */
   height: 17px;
+  /* Height of the icon */
   background-image: none;
+  /* Removes default background image */
   position: relative;
+  /* Allows positioning of pseudo-elements */
   border-bottom: 2px solid #10ca06;
+  /* Bottom border */
   transition: all 300ms linear;
+  /* Smooth transition for all properties */
   top: -2px;
+  /* Adjusts position */
 }
 
 /* Styling for navbar toggler icon focus state */
 nav.navbar .navbar-toggler-icon:focus {
   border-bottom: 2px solid #0fac5b;
+  /* Changes bottom border color on focus */
 }
 
 /* Styling for navbar toggler icon lines */
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
   width: 24px;
+  /* Width of the lines */
   position: absolute;
+  /* Positioned relative to the icon */
   height: 2px;
+  /* Height of the lines */
   background-color: #370b65;
+  /* Background color of the lines */
   top: 0;
+  /* Positioned at the top */
   left: 0;
+  /* Positioned at the left */
   content: '';
+  /* Empty content for the pseudo-element */
   z-index: 2;
+  /* Above other elements */
   transition: all 300ms linear;
+  /* Smooth transition for all properties */
 }
 
 nav.navbar .navbar-toggler-icon:after {
   top: 8px;
+  /* Positioned below the first line */
 }
 
 /* Styling for expanded navbar toggler icon lines */
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
+  /* Rotates line on expand */
   background-color: #ff3807;
+  /* Changes background color */
   height: 2px;
+  /* Height of the line */
 }
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
+  /* Moves and rotates line on expand */
   background-color: #bf1515;
+  /* Changes background color */
   height: 2px;
+  /* Height of the line */
 }
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
+  /* Removes border on expand */
 }
 
-nav.navbar .menuText {
+/* Styling for the navigation menu */
+nav.navbar .me-auto {
   color: #bf7015;
+  /* Text color */
   text-align: center;
   display: flex;
+  /* Flexbox for menu items */
   justify-content: space-between;
+  /* Evenly spaces out menu items */
   width: 100%;
-  /* Ensures it takes up the remaining space */
+  /* Takes up the remaining space */
 }
 
 
