@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecacd33b.css",
-    "main.js": "/static/js/main.fe9b52e3.js",
+    "main.css": "/static/css/main.dc578beb.css",
+    "main.js": "/static/js/main.b6f6f57d.js",
     "static/js/453.7717dffa.chunk.js": "/static/js/453.7717dffa.chunk.js",
+    "static/media/PRgroup.jpeg": "/static/media/PRgroup.6738dbacf8e8f58c1f46.jpeg",
+    "static/media/PRarduinos.jpg": "/static/media/PRarduinos.f9e2571a8be8b635ac9f.jpg",
     "static/media/gabi.png": "/static/media/gabi.eed89e44be1e10639dba.png",
+    "static/media/PRsoldering.jpg": "/static/media/PRsoldering.f30455f9f6c36636dca4.jpg",
     "static/media/mylogo1.png": "/static/media/mylogo1.155b1d16422148e7c00c.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -11,12 +14,12 @@
     "static/media/lIn4-removebg-preview.png": "/static/media/lIn4-removebg-preview.5128739164d2a3a6ce81.png",
     "static/media/github-icon.png.webp": "/static/media/github-icon.png.df5a286f2102328ed289.webp",
     "index.html": "/index.html",
-    "main.ecacd33b.css.map": "/static/css/main.ecacd33b.css.map",
-    "main.fe9b52e3.js.map": "/static/js/main.fe9b52e3.js.map",
+    "main.dc578beb.css.map": "/static/css/main.dc578beb.css.map",
+    "main.b6f6f57d.js.map": "/static/js/main.b6f6f57d.js.map",
     "453.7717dffa.chunk.js.map": "/static/js/453.7717dffa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecacd33b.css",
-    "static/js/main.fe9b52e3.js"
+    "static/css/main.dc578beb.css",
+    "static/js/main.b6f6f57d.js"
   ]
 }
