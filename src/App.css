@@ -408,14 +408,16 @@ nav.navbar .menuText {
   text-align: center;
   width: 100%;
   bottom: 0;
+  background-color: white !important;
+  /* Adjust background color as needed */
   z-index: 9999;
 }
 
 .footer .row {
   display: flex;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 400px;
+  /*margin-left: 200px;
+  margin-right: 400px;*/
 }
 
 .footer .git-social-button img {
