@@ -115,8 +115,6 @@ p.danger {
 /************************************ Navbar Css ************************************/
 /* Styling for the navbar */
 nav.navbar {
-  padding: 18px 0;
-  /* Padding on the top and bottom */
   position: fixed;
   /* Fixes the navbar to the top of the screen */
   width: 100%;
@@ -218,10 +216,9 @@ nav.navbar a.navbar-brand {
 }
 
 /* Styling for button hover effect */
-.navbar-text button:hover {
+/*.navbar-text button:hover {
   color: #FFDF13;
-  /* Changes text color on hover */
-}
+}*/
 
 /* Styling for navbar toggler icon */
 nav.navbar .navbar-toggler-icon {
