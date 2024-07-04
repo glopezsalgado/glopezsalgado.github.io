@@ -637,7 +637,10 @@ nav.navbar .menuText {
   grid-template-columns: repeat(3, 1fr);
   /* 3 columns, adjust as needed */
   gap: 10px;
-  /* Optional: space between images */
+  align-items: center;
+
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
