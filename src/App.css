@@ -278,7 +278,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Styling for the navigation menu */
 nav.navbar .me-auto {
-  color: #15bcbf;
+  color: #bf7015;
+
+  width: 100%;
+  /* Text color */
   text-align: center;
   display: flex;
   /* Flexbox for menu items */
