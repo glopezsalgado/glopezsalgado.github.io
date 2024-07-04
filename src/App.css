@@ -125,7 +125,7 @@ nav.navbar {
 /* Styling for the navbar when scrolled 121212*/
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #ff2014;
+  background-color: #9514ff;
 
   /*   background-color: #b114ff; */
 
@@ -179,7 +179,7 @@ nav.navbar .navbar-toggler-icon {
   height: 17px;
   background-image: none;
   position: relative;
-  border-bottom: 2px solid #ca0606;
+  border-bottom: 2px solid #10ca06;
   transition: all 300ms linear;
   top: -2px;
 }
@@ -225,8 +225,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 nav.navbar .menuText {
-  text-align: center;
   color: #bf7015;
+  text-align: center;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -489,6 +489,8 @@ nav.navbar .menuText {
 .myCommunities h2,
 .myCommunities h3 {
   text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .myCommunities p {
