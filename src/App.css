@@ -163,7 +163,7 @@ nav.navbar a.navbar-brand {
 .navbar-link.active {
   font-weight: bold;
   /* Bold for active link */
-  color: #ffdf13;
+  color: #ffdf13 !important;
   /* Color for active link */
 }
 
@@ -628,4 +628,9 @@ nav.navbar .menuText {
   .myCommunities .right {
     text-align: center;
   }
+}
+
+.myCommunities .puerto-rico-images {
+  align-items: center;
+
 }
