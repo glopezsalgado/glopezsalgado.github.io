@@ -165,6 +165,8 @@ nav.navbar a.navbar-brand {
   background-color: rgb(255, 56, 103) !important;
   color: white !important;
   border-radius: 4px;
+  padding: 18px 60px;
+
 }
 
 /* Styling for buttons within navbar text */
