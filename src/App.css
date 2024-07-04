@@ -640,9 +640,9 @@ nav.navbar .menuText {
 
 
 .myCommunities .puerto-rico-images img {
-  max-width: 100%;
+  max-width: auto;
   /* Adjust as needed */
-  height: auto;
+  height: 50%;
   /* Maintain aspect ratio */
   /* Optional: add space between images */
 }
