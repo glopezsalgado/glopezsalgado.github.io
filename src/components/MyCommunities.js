@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
+
 import PRarduinos from "../assets/img/PuertoRico/PRarduinos.jpg";
 import PRsoldering from "../assets/img/PuertoRico/PRsoldering.jpg";
 import PRgroup from "../assets/img/PuertoRico/PRgroup.jpeg";
@@ -63,7 +65,6 @@ export const MyCommunities = () => {
                     <img src={PRarduinos} alt="PRarduinos Img" />
                     <img src={PRsoldering} alt="PRsoldering Img" />
                     <img src={PRgroup} alt="PRgroup Img" />
-
                 </Row>
                 <h2>Women In Science and Engineering - Residence Program (WISE-RP)</h2>
                 <h2>Michigan Robotics Department</h2>
