@@ -141,7 +141,7 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   width: 9%;
   /* Width of the logo */
-  padding-right: 30px;
+  padding-right: 400px;
   /* Right padding to space out from the links */
 }
 
