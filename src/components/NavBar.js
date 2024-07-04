@@ -37,10 +37,10 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <div className="menuText">
-                            <Nav.Link as={Link} to="/" className={activeLink === 'aboutMe' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>About Me</Nav.Link>
-                            <Nav.Link as={Link} to="/technicalExperience" className={activeLink === 'communities' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('technicalexperience')}>Technical Experience</Nav.Link>
+                            <Nav.Link as={Link} to="/" className={activeLink === 'aboutme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>About Me</Nav.Link>
+                            <Nav.Link as={Link} to="/technicalExperience" className={activeLink === 'technicalexperience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('technicalexperience')}>Technical Experience</Nav.Link>
                             <Nav.Link as={Link} to="/myCommunities" className={activeLink === 'communities' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('communities')}>My Communities</Nav.Link>
-                            <Nav.Link as={Link} to="/connect" className={activeLink === 'communities' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connectint')}>Let’s Connect</Nav.Link>
+                            <Nav.Link as={Link} to="/connect" className={activeLink === 'connecting' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connecting')}>Let’s Connect</Nav.Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>
