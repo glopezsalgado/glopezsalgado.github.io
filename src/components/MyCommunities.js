@@ -59,8 +59,8 @@ export const MyCommunities = () => {
                 <h4>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h4>
                 <p> hi, guess what?!
                 </p>
-                <h3>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h3>
-                <h3>2022 SHPE'd Abroad Program in Puerto Rico</h3>
+                <h4>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h4>
+                <h4>2022 SHPE'd Abroad Program in Puerto Rico</h4>
                 <div className="puerto-rico-images">
                     <img src={PRarduinos} alt="PRarduinos Img" />
                     <img src={PRsoldering} alt="PRsoldering Img" />
