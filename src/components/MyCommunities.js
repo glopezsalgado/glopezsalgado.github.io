@@ -55,8 +55,10 @@ export const MyCommunities = () => {
                         <button onClick={nextSlide} className="next">▶</button>
                     </div>
                 </div>
-
-                <h3>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h3>
+                <h3>SHPE'd Abroad Program</h3>
+                <h4>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h4>
+                <p> hi, guess what?!
+                </p>
                 <h3>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h3>
                 <h3>2022 SHPE'd Abroad Program in Puerto Rico</h3>
                 <div className="puerto-rico-images">
