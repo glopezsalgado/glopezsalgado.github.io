@@ -657,3 +657,17 @@ nav.navbar .menuText {
   /* Maintain aspect ratio */
   /* Optional: add space between images */
 }
+
+.myCommunities .puerto-rico-images .vertical-image img {
+  /* Your CSS styles here */
+  width: auto;
+  /* example */
+  height: 50%;
+}
+
+.myCommunities .puerto-rico-images .horizontal-image img {
+  /* Your CSS styles here */
+  width: 100%;
+  /* example */
+  height: auto;
+}
