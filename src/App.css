@@ -564,12 +564,23 @@ nav.navbar .menuText {
 }
 
 /* MY COMMUNITIES*/
+.myCommunities p {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .myCommunities h2,
 .myCommunities h3 {
   text-align: left;
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.myCommunities h4 {
+  color: rgb(255, 56, 103);
+}
+
 
 .myCommunities h2 {
   color: rgb(255, 56, 103);
