@@ -56,11 +56,13 @@ export const MyCommunities = () => {
                     </div>
                 </div>
                 <h3>SHPE'd Abroad Program</h3>
-                <h4>2024 SHPE'd Abroad Program in Quepos, Costa Rica</h4>
-                <p> hi, guess what?!
+                <h4>2024 in Quepos, Costa Rica</h4>
+                <p>This year, we expanded the program to teach 50 K-12 students in the mornings and 60 adults, aged 20 to 60, in an evening school. I managed and oversaw fundraising of $19,650.39, sponsoring 16 members for SHPE’d Abroad in Costa Rica. I also co-developed a curriculum to teach the K-12 students aspects of robotics and 3D design with a focus on space, while adults learned how to utilize a computer and Microsoft programs. I created 6 lesson plans for 18 hours of instruction. This experience was particularly unique as none of the adults had ever used a computer. We had the privilege of teaching the adults to become internet autodidacts. Our primary goal was preparing them to be capable and encouraging them to continue learning for themselves beyond the end of our program.
+                    During our community service trip, we also explored Costa Rica's natural beauty, engaging in activities like white-water rafting, beach relaxation, hiking in the Santa Elena Cloud Forest Reserve, snorkeling at Isla Tortuga, and horseback riding.
                 </p>
-                <h4>2023 SHPE'd Abroad Program in La Vega, Dominican Republic</h4>
-                <h4>2022 SHPE'd Abroad Program in Puerto Rico</h4>
+                <h4>2023 in La Vega, Dominican Republic</h4>
+                <p>j</p>
+                <h4>2022 in Puerto Rico</h4>
                 <div className="puerto-rico-images">
                     <img src={PRarduinos} alt="PRarduinos Img" />
                     <img src={PRsoldering} alt="PRsoldering Img" />
