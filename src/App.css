@@ -566,8 +566,10 @@ nav.navbar .menuText {
 /* MY COMMUNITIES*/
 .myCommunities p {
   text-align: justify;
+  vertical-align: text-top;
   padding-left: 50px;
   padding-right: 50px;
+
 }
 
 .myCommunities h2,
@@ -584,11 +586,6 @@ nav.navbar .menuText {
 
 .myCommunities h2 {
   color: rgb(255, 56, 103);
-}
-
-.myCommunities p {
-  vertical-align: text-top;
-  padding-bottom: 65px;
 }
 
 .myCommunities .row {
@@ -647,22 +644,25 @@ nav.navbar .menuText {
 
   padding-left: 50px;
   padding-right: 50px;
+
+  justify-content: space-between;
+  /* Adjusts the space between the images */
 }
 
 
 .myCommunities .puerto-rico-images img {
-  max-width: auto;
-  /* Adjust as needed */
-  height: 50%;
-  /* Maintain aspect ratio */
-  /* Optional: add space between images */
+  max-height: 200px;
+  /* Set this to your desired height */
+  object-fit: cover;
+  /* Ensures the image covers the area without stretching */
+  width: auto;
+  /* Adjusts the width automatically to maintain aspect ratio */
 }
 
 .myCommunities .puerto-rico-images .vertical-image img {
-  /* Your CSS styles here */
+  max-height: 200px;
+  object-fit: cover;
   width: auto;
-  /* example */
-  height: 50%;
 }
 
 .myCommunities .puerto-rico-images .horizontal-image img {
