@@ -640,12 +640,13 @@ nav.navbar .menuText {
   grid-template-columns: repeat(3, 1fr);
   /* 3 columns, adjust as needed */
   gap: 10px;
-  align-items: center;
 
   padding-left: 50px;
   padding-right: 50px;
 
   justify-content: space-between;
+  align-items: center;
+
   /* Adjusts the space between the images */
 }
 
@@ -656,6 +657,8 @@ nav.navbar .menuText {
   object-fit: cover;
   /* Ensures the image covers the area without stretching */
   width: auto;
+  align-items: center;
+
   /* Adjusts the width automatically to maintain aspect ratio */
 }
 
