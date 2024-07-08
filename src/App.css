@@ -654,10 +654,8 @@ nav.navbar .menuText {
 */
   margin: 0 70px;
   justify-content: center;
-  align-items: center;
-}
+  /*align-items: center;*/
 
-.myCommunities .WISE-images {
   max-height: 300px;
   object-fit: cover;
   width: auto;
