@@ -134,7 +134,7 @@ nav.navbar {
 nav.navbar.scrolled {
   padding: 0px 0;
   /* Removes padding on scroll */
-  background-color: #9514ff;
+  background-color: #ffffff;
   /* Changes background color when scrolled */
 }
 
@@ -665,6 +665,13 @@ nav.navbar .menuText {
   align-items: center;
 }
 
+.myCommunities .WISE-images {
+  max-height: 300px;
+  object-fit: cover;
+  width: auto;
+  align-items: right;
+  padding-right: 50px;
+}
 
 .myCommunities .WISE-images img {
   max-height: 300px;
