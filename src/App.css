@@ -563,30 +563,29 @@ nav.navbar .menuText {
   }
 }
 
-/* MY COMMUNITIES*/
+/************************************* MY COMMUNITIES *************************************/
 .myCommunities p {
   text-align: justify;
   vertical-align: text-top;
   padding-left: 50px;
   padding-right: 50px;
+}
 
+.myCommunities h2 {
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 50px;
+  color: rgb(255, 56, 103);
 }
 
 .myCommunities h3 {
-  padding-top: 30;
   text-align: left;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .myCommunities h4 {
-  color: rgb(255, 56, 103);
-}
-
-
-.myCommunities h2 {
-  text-align: left;
-  padding-left: 50px;
+  padding-top: 40px;
   color: rgb(255, 56, 103);
 }
 
@@ -594,7 +593,6 @@ nav.navbar .menuText {
   display: flex;
   align-items: center;
   padding-right: 50px;
-  /* Center align vertically */
 }
 
 .myCommunities .column {
@@ -647,13 +645,8 @@ nav.navbar .menuText {
     justify-content: space-between;
 */
   margin: 0 50px;
-  /* creates space between the grid and the edges of the container */
   justify-content: center;
-  /* centers the grid */
-
   align-items: center;
-
-  /* Adjusts the space between the images */
 }
 
 
@@ -664,8 +657,6 @@ nav.navbar .menuText {
   /* Ensures the image covers the area without stretching */
   width: auto;
   align-items: center;
-
-  /* Adjusts the width automatically to maintain aspect ratio */
 }
 
 .myCommunities .puerto-rico-images .vertical-image img {
@@ -675,8 +666,6 @@ nav.navbar .menuText {
 }
 
 .myCommunities .puerto-rico-images .horizontal-image img {
-  /* Your CSS styles here */
   width: 100%;
-  /* example */
   height: auto;
 }
