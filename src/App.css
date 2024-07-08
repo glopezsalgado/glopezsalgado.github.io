@@ -590,16 +590,30 @@ nav.navbar .menuText {
 }
 
 .myCommunities .cr-images {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 3 columns, adjust as needed */
+  gap: 10px;
+
+  /*padding-left: 50px;
   padding-right: 50px;
-  padding-left: 50px;
+    justify-content: space-between;
+*/
+  margin: 0 100px;
+  justify-content: center;
+  /*align-items: center;*/
+
+  object-fit: cover;
+  width: auto;
+  align-items: right;
+  padding-right: 50px;
+}
+
+.myCommunities .cr-images img {
   max-height: 300px;
   object-fit: cover;
   width: auto;
-  width: auto;
-  height: 100%;
-  margin: 0 50px;
+  align-items: center;
 }
 
 .myCommunities .column {
