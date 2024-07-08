@@ -595,6 +595,21 @@ nav.navbar .menuText {
   padding-right: 50px;
 }
 
+.myCommunities .row-cr {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.myCommunities .row-cr .horizontal-image img {
+  width: 100%;
+  height: auto;
+  margin: 0 50px;
+
+}
+
 .myCommunities .column {
   flex: 1;
   padding: 10px;
@@ -653,9 +668,7 @@ nav.navbar .menuText {
 
 .myCommunities .WISE-images img {
   max-height: 300px;
-  /* Set this to your desired height */
   object-fit: cover;
-  /* Ensures the image covers the area without stretching */
   width: auto;
   align-items: center;
 }
