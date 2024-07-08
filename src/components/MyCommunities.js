@@ -1,11 +1,27 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
+
+/* Puerto Rico Images */
 import PRarduinos from "../assets/img/PuertoRico/PRarduinos.jpg";
 import PRsoldering from "../assets/img/PuertoRico/PRsoldering.jpg";
 import PRgroup from "../assets/img/PuertoRico/PRgroup.jpeg";
+import PRlesson from "../assets/img/PuertoRico/PRlesson.jpg";
+
+/* Dominican Republic  Images */
 import DRgirls from "../assets/img/DominicanRepublic/DRgirls.jpg";
 import DRvolunteers from "../assets/img/DominicanRepublic/DRvolunteers.jpg";
 import DRvolunteers2 from "../assets/img/DominicanRepublic/DRvolunteers2.jpg";
+
+/* Costa Rica Images */
+
+/* WISE-RP Images */
+import WISEgathering from "../assets/img/WISE/WISEgathering.jpg";
+import WISEgroup from "../assets/img/WISE/WISEgroup.jpg";
+import WISEpresentation from "../assets/img/WISE/WISEpresentation.jpg";
+
+/* Robotics Images */
+import ROBsoldering from "../assets/img/ROB/ROBsoldering.jpg";
+
 
 export const MyCommunities = () => {
     const videoLinks = [
@@ -74,9 +90,24 @@ export const MyCommunities = () => {
                     <img src={PRarduinos} alt="PRarduinos Img" className="horizontal-image" />
                     <img src={PRsoldering} alt="PRsoldering Img" className="vertical-image" />
                     <img src={PRgroup} alt="PRgroup Img" className="horizontal-image" />
+                    <img src={PRlesson} alt="PRgroup Img" className="horizontal-image" />
                 </div>
                 <h2>Women In Science and Engineering - Residence Program (WISE-RP)</h2>
+                <p>WISE-RP is a living-learning community at the University of Michigan for gender-minoritized students pursuing careers in science, technology, engineering, or mathematics. I joined WISE-RP in the fall of 2021 as a member and returned the following year as a Peer Mentor. In this role, I planned 30 personal, academic, and professional development sessions to help 8 first-year students transition to college life.</p>
+                <div className="puerto-rico-images">
+                    <img src={WISEgathering} alt="WISEgathering Img" className="vertical-image" />
+                    <img src={WISEgroup} alt="WISEgroup Img" className="horizontal-image" />
+                    <img src={WISEpresentation} alt="WISEpresentation Img" className="vertical-image" />
+                </div>
                 <h2>Michigan Robotics Department</h2>
+                <div className="row">
+                    <div className="column left">
+                        <p>????.</p>
+                    </div>
+                    <div className="column right">
+                        <img src={ROBsoldering} alt="ROB Soldering Img" />
+                    </div>
+                </div>
             </Container>
             <div className="space"></div>
         </section>
