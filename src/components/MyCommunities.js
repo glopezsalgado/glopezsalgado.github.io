@@ -96,7 +96,7 @@ export const MyCommunities = () => {
                         <p>WISE-RP is a living-learning community at the University of Michigan for gender-minoritized students pursuing careers in science, technology, engineering, or mathematics. I joined WISE-RP in the fall of 2021 as a member and returned the following year as a Peer Mentor. In this role, I planned 30 personal, academic, and professional development sessions to help 8 first-year students transition to college life.</p>
                     </div>
                     <div className="column right">
-                        <div className="puerto-rico-images">
+                        <div className="WISE-images">
                             <img src={WISEgathering} alt="WISEgathering Img" className="vertical-image" />
                             <img src={WISEgroup} alt="WISEgroup Img" className="horizontal-image" />
                             <img src={WISEpresentation} alt="WISEpresentation Img" className="vertical-image" />

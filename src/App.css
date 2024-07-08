@@ -634,6 +634,33 @@ nav.navbar .menuText {
   }
 }
 
+
+.myCommunities .WISE-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columns, adjust as needed */
+  gap: 10px;
+
+  /*padding-left: 50px;
+  padding-right: 50px;
+    justify-content: space-between;
+*/
+  margin: 0 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.myCommunities .WISE-images img {
+  max-height: 300px;
+  /* Set this to your desired height */
+  object-fit: cover;
+  /* Ensures the image covers the area without stretching */
+  width: auto;
+  align-items: center;
+}
+
+
 .myCommunities .puerto-rico-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
