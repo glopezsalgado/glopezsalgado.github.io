@@ -621,6 +621,10 @@ nav.navbar .menuText {
   padding: 10px;
 }
 
+.myCommunities .row {
+  padding-right: 50px;
+}
+
 .myCommunities .left {
   text-align: left;
 }
