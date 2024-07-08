@@ -589,25 +589,17 @@ nav.navbar .menuText {
   color: rgb(255, 56, 103);
 }
 
-.myCommunities .row {
-  display: flex;
-  align-items: center;
-  padding-right: 50px;
-}
-
-.myCommunities .row-cr {
+.myCommunities .cr-images {
   display: flex;
   align-items: center;
   padding-right: 50px;
   padding-left: 50px;
-
-}
-
-.myCommunities .row-cr .horizontal-image img {
+  max-height: 300px;
+  object-fit: cover;
+  width: auto;
   width: auto;
   height: 100%;
   margin: 0 50px;
-
 }
 
 .myCommunities .column {
