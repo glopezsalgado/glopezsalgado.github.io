@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.136da285.css",
-    "main.js": "/static/js/main.19b2b81a.js",
+    "main.js": "/static/js/main.9004e2b5.js",
     "static/js/453.7717dffa.chunk.js": "/static/js/453.7717dffa.chunk.js",
     "static/media/PRgroup.jpeg": "/static/media/PRgroup.6738dbacf8e8f58c1f46.jpeg",
     "static/media/ROBsoldering.jpg": "/static/media/ROBsoldering.740dccd2f48b4cd7895f.jpg",
     "static/media/PRarduinos.jpg": "/static/media/PRarduinos.f9e2571a8be8b635ac9f.jpg",
-    "static/media/PRlesson.jpg": "/static/media/PRlesson.f9e2571a8be8b635ac9f.jpg",
     "static/media/WISEgroup.jpg": "/static/media/WISEgroup.44b7f00325a16d6d0a24.jpg",
     "static/media/DRgirls.jpg": "/static/media/DRgirls.6c9d6dba94cce0279734.jpg",
     "static/media/gabi.png": "/static/media/gabi.eed89e44be1e10639dba.png",
@@ -23,11 +22,11 @@
     "static/media/github-icon.png.webp": "/static/media/github-icon.png.df5a286f2102328ed289.webp",
     "index.html": "/index.html",
     "main.136da285.css.map": "/static/css/main.136da285.css.map",
-    "main.19b2b81a.js.map": "/static/js/main.19b2b81a.js.map",
+    "main.9004e2b5.js.map": "/static/js/main.9004e2b5.js.map",
     "453.7717dffa.chunk.js.map": "/static/js/453.7717dffa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.136da285.css",
-    "static/js/main.19b2b81a.js"
+    "static/js/main.9004e2b5.js"
   ]
 }
