@@ -75,15 +75,15 @@ export const MyCommunities = () => {
                     </div>
                 </div>
                 <h3>SHPE'd Abroad Program</h3>
-                <p>SHPE’d Abroad is an annual week-long program unique to our chapter since 2013, dedicated to teaching about STEM and academic development in under-resourced communities in Latin America. Since its organization, our program has reached Guatemala, Puerto Rico, the Dominican Republic, and multiple locations in Costa Rica, educating K-12 students. My involvement began in 2022, when I supported the chapter’s outreach team in outreaching to schools in Puerto Rico, to find a school to support, and attended as a mentoring volunteer. At the end of the 2022 SHPE’d Abroad program, my involvement grew as I was elected as the Vice President of External Affairs two years consecutively and became the head of the program’s organization.</p>
+                <p>SHPE’d Abroad is an annual week-long program unique to our chapter since 2013, dedicated to teaching about STEM and academic development in under-resourced communities in Latin America. Since its organization, our program has reached Guatemala, Puerto Rico, the Dominican Republic, and multiple locations in Costa Rica, educating K-12 grade students. My involvement began in 2022, when I supported the chapter’s outreach team in outreaching to schools in Puerto Rico to find a school to support, and attended as a mentoring volunteer. At the end of the 2022 SHPE’d Abroad program, my involvement grew as I was elected as the Vice President of External Affairs two years consecutively and became the head of the program’s organization.</p>
                 <h4>2024 in Quepos, Costa Rica</h4>
                 <p>This year, we expanded the program to teach 50 K-12 students in the mornings and 60 adults, aged 20 to 60, in an evening school. I managed and oversaw fundraising of $19,650.39, sponsoring 16 members for SHPE’d Abroad in Costa Rica. I also co-developed a curriculum to teach the K-12 students aspects of robotics and 3D design with a focus on space, while adults learned how to utilize a computer and Microsoft programs. I created 6 lesson plans for 18 hours of instruction. This experience was particularly unique as none of the adults had ever used a computer. We had the privilege of teaching the adults to become internet autodidacts. Our primary goal was preparing them to be capable and encouraging them to continue learning for themselves beyond the end of our program.</p><p>During our community service trip, we also explored Costa Rica's natural beauty, engaging in activities like white-water rafting, beach relaxation, hiking in the Santa Elena Cloud Forest Reserve, snorkeling at Isla Tortuga, and horseback riding.
                 </p>
                 <div className="row-cr">
-                    <div className="column left">
+                    <div className="column-left">
                         <img src={CRadults} alt="CRadults Img" className="horizontal-image" />
                     </div>
-                    <div className="column right">
+                    <div className="column-right">
                         <img src={CRkids} alt="CRkids Img" className="horizontal-image" />
                     </div>
                 </div>
