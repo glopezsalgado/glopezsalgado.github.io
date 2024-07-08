@@ -102,15 +102,16 @@ export const MyCommunities = () => {
                             <img src={WISEpresentation} alt="WISEpresentation Img" className="vertical-image" />
                         </div>
                     </div>
-                    <h2>Michigan Robotics Department</h2>
-                    <div className="row">
-                        <div className="column left">
-                            <p>????.</p>
-                        </div>
-                        <div className="column right">
-                            <img src={ROBsoldering} alt="ROB Soldering Img" />
-                        </div>
+                </div>
+                <h2>Michigan Robotics Department</h2>
+                <div className="row">
+                    <div className="column left">
+                        <p>????.</p>
                     </div>
+                    <div className="column right">
+                        <img src={ROBsoldering} alt="ROB Soldering Img" />
+                    </div>
+                </div>
             </Container>
             <div className="space"></div>
         </section>
