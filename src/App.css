@@ -739,6 +739,7 @@ nav.navbar .menuText {
   text-align: left;
   padding-left: 40px;
   padding-right: 50px;
+  white-space: nowrap;
 }
 
 /* Position */
@@ -746,6 +747,7 @@ nav.navbar .menuText {
   text-align: left;
   padding-left: 40px;
   padding-right: 50px;
+  white-space: nowrap;
 }
 
 /* Experience Bullet Points */
@@ -797,8 +799,6 @@ nav.navbar .menuText {
 #timeline {
   width: 80%;
   /* Width of the timeline container */
-  max-width: 600px;
-  /* Maximum width for the timeline container */
   margin: 50px auto;
   /* Center the timeline container with margin */
   position: relative;

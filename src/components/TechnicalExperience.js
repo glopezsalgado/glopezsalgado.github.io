@@ -68,13 +68,6 @@ const resumeTechData = [
     }
 ];
 
-/*
-export const TechnicalExperience = () => {
-    return (
-        <h3>Embedded Systems</h3>
-    );
-};
-*/
 
 export const TechnicalExperience = () => {
     return (
@@ -99,5 +92,13 @@ export const TechnicalExperience = () => {
         </div>
     );
 }
+
+/*
+export const TechnicalExperience = () => {
+    return (
+        <h3>Embedded Systems</h3>
+    );
+};
+*/
 
 /*export default TechnicalExperience;*/
