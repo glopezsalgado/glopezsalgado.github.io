@@ -76,7 +76,7 @@ export const TechnicalExperience = () => {
 };
 */
 
-const TechnicalExperience = () => {
+export const TechnicalExperience = () => {
     return (
         <div id="timeline">
             {timelineData.map((job, index) => (
@@ -100,4 +100,4 @@ const TechnicalExperience = () => {
     );
 }
 
-export default TechnicalExperience;
+/*export default TechnicalExperience;*/
