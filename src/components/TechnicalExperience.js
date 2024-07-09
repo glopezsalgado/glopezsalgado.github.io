@@ -18,7 +18,7 @@ const resumeTechData = [
     {
         company: "Cummins, H2 Connected Power Systems Department",
         position: "Test Engineer Intern",
-        startDate: "June 2023 –",
+        startDate: "June 2023",
         endDate: "August 2023",
         experience: [
             "Supported software implementation of a new transfer switch mechanism to an existing control by developing flow diagrams to visually represent power transfer processes in the transfer switch.",
@@ -30,7 +30,7 @@ const resumeTechData = [
     {
         company: "Apple Developer Academy",
         position: "iOS Developer ",
-        startDate: "May 2023 –",
+        startDate: "May 2023",
         endDate: "June 2023",
         experience: [
             "Led a team in researching 60 recipes, 100+ workouts, and 20 selections of general advice in 10 hours for storing in a database.",
@@ -40,7 +40,7 @@ const resumeTechData = [
     {
         company: "Independent Researcher",
         position: "",
-        startDate: "December 2022 –",
+        startDate: "December 2022",
         endDate: "April 2023",
         experience: [
             "Built and deployed an embedded system used to study vibrations and temperature in concrete, as well as the effects of collecting data with epoxy-coated electronic components which proved that epoxy-coating has a minimal effect on that data’s accuracy.",
@@ -50,7 +50,7 @@ const resumeTechData = [
     {
         company: "Michigan Human-Artificial Intelligence Laboratory",
         position: "iOS Developer",
-        startDate: "May 2022 –",
+        startDate: "May 2022",
         endDate: "September 2022",
         experience: [
             "Developed and tested the user interface (UI) of an iOS app for people with visual impairment to program their assistive technologies by leveraging various artificial intelligence (AI) functionalities and applying functions to off-the-shelf AI model out.",
@@ -60,7 +60,7 @@ const resumeTechData = [
     {
         company: "Michigan Robotics Department",
         position: "Research Assistant",
-        startDate: "December 2021 –",
+        startDate: "December 2021",
         endDate: "April 2022",
         experience: [
             "Investigated and designed a digital LED matrix alarm clock with an implemented FM radio, by creating an embedded system with an Arduino, LM386 amplifier, speaker, and button UI to allow setting alarms and time, monitoring the volume and station played."

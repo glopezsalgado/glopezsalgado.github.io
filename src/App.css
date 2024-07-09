@@ -198,32 +198,8 @@ nav.navbar a.navbar-brand {
   /* Ensures text is above the background */
 }
 
-.navbar-text button::before {
-  content: "";
-  /* Empty content for the pseudo-element */
-  width: 0%;
-  /* Initially zero width for hover effect */
-  height: 100%;
-  /* Full height */
-  position: absolute;
-  /* Positioned relative to the button */
-  background-color: #f6b800;
-  /* Background color of the hover effect */
-  left: 0;
-  /* Start from the left */
-  top: 0;
-  /* Start from the top */
-  z-index: -1;
-  /* Behind the text */
-  transition: 0.3s ease-in-out;
-  /* Smooth transition for hover effect */
-}
 
-/* Styling for button hover effect */
-.navbar-text button:hover {
-  color: #FFDF13;
-  /* Changes text color on hover */
-}
+
 
 /* Styling for navbar toggler icon */
 nav.navbar .navbar-toggler-icon {
@@ -730,11 +706,12 @@ nav.navbar .menuText {
 .timeline-item .left h2 {
   text-align: right;
   padding-right: 40px;
-
+  white-space: nowrap;
 }
 
 /* Company */
 .timeline-item .right h2 {
+  color: rgb(255, 56, 103);
   text-align: left;
   padding-left: 40px;
   padding-right: 50px;
@@ -755,6 +732,12 @@ nav.navbar .menuText {
   padding-right: 50px;
 }
 
+/* Experience Bullet Points */
+.timeline-item .right li {
+  text-align: justify;
+}
+
+
 /* Vertical line in the middle of the timeline */
 .timeline-item::before {
   content: "";
@@ -769,7 +752,7 @@ nav.navbar .menuText {
   /* Start at the top of the timeline */
   bottom: 0;
   /* Stretch to the bottom of the timeline */
-  left: 35%;
+  left: 20%;
   /* Position the line in the middle */
   margin-left: -1px;
   /* Center the line precisely */
@@ -796,7 +779,7 @@ nav.navbar .menuText {
 }
 
 #timeline {
-  width: 80%;
+  width: 90%;
   /* Width of the timeline container */
   margin: 50px auto;
   /* Center the timeline container with margin */
