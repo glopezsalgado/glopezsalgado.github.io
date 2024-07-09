@@ -79,7 +79,7 @@ export const TechnicalExperience = () => {
 export const TechnicalExperience = () => {
     return (
         <div id="timeline">
-            {timelineData.map((job, index) => (
+            {resumeTechData.map((job, index) => (
                 <div className="timeline-item" key={index}>
                     <div className="left">
                         <h2>{job.startDate} -</h2>
