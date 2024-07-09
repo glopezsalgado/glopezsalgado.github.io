@@ -773,3 +773,34 @@ nav.navbar .menuText {
   margin-left: -1px;
   /* Center the line precisely */
 }
+
+/* Individual timeline item styling */
+.timeline-item {
+  padding: 20px;
+  /* Padding inside each timeline item */
+  background: #fff;
+  /* White background for each timeline item */
+  border-radius: 5px;
+  /* Rounded corners for each timeline item */
+  margin: 10px 0;
+  /* Margin between each timeline item */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for each timeline item */
+  display: flex;
+  /* Flexbox layout for content alignment */
+  justify-content: space-between;
+  /* Space between left and right content */
+  position: relative;
+  /* Relative positioning for timeline item */
+}
+
+#timeline {
+  width: 80%;
+  /* Width of the timeline container */
+  max-width: 600px;
+  /* Maximum width for the timeline container */
+  margin: 50px auto;
+  /* Center the timeline container with margin */
+  position: relative;
+  /* Relative positioning for the container */
+}
