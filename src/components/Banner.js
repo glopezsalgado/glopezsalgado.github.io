@@ -10,6 +10,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
+    const [showResume, setShowResume] = useState(false); // Define showResume state
     const toRotate = ["Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer"];
     const period = 2000;
 
@@ -47,7 +48,7 @@ export const Banner = () => {
     }
 
     const resumeButtonClick = () => {
-        setshowResume(true); // Show the PDF when button is clicked
+        setShowResume(true); // Show the PDF when button is clicked
     }
 
 
