@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24b74c98.css",
-    "main.js": "/static/js/main.754681ec.js",
+    "main.js": "/static/js/main.385cd421.js",
     "static/js/453.7717dffa.chunk.js": "/static/js/453.7717dffa.chunk.js",
     "static/media/PRgroup.jpeg": "/static/media/PRgroup.6738dbacf8e8f58c1f46.jpeg",
     "static/media/ROBsoldering.jpg": "/static/media/ROBsoldering.740dccd2f48b4cd7895f.jpg",
@@ -15,6 +15,7 @@
     "static/media/DRvolunteers2.jpg": "/static/media/DRvolunteers2.85fe6e13f7e821d4fecf.jpg",
     "static/media/PRsoldering.jpg": "/static/media/PRsoldering.f30455f9f6c36636dca4.jpg",
     "static/media/mylogo1.png": "/static/media/mylogo1.155b1d16422148e7c00c.png",
+    "static/media/Gabriela Ivonne Lopez-Salgado - Resume Fall 2023.pdf": "/static/media/Gabriela Ivonne Lopez-Salgado - Resume Fall 2023.baa84eac0a3715a3ac88.pdf",
     "static/media/WISEpresentation.jpg": "/static/media/WISEpresentation.e60dc076747c1a5daa8b.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -24,11 +25,11 @@
     "static/media/github-icon.png.webp": "/static/media/github-icon.png.df5a286f2102328ed289.webp",
     "index.html": "/index.html",
     "main.24b74c98.css.map": "/static/css/main.24b74c98.css.map",
-    "main.754681ec.js.map": "/static/js/main.754681ec.js.map",
+    "main.385cd421.js.map": "/static/js/main.385cd421.js.map",
     "453.7717dffa.chunk.js.map": "/static/js/453.7717dffa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24b74c98.css",
-    "static/js/main.754681ec.js"
+    "static/js/main.385cd421.js"
   ]
 }
