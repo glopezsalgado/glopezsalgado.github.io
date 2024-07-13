@@ -48,7 +48,29 @@ export const Banner = () => {
     return (
         <section className="banner" id="aboutMe">
             <Container fluid>
-                <Row className="align-items-center">
+                <Col xs={12} md={6}>
+                    <img className="circular-image-container" src={gabi} alt="Header Img" />
+                </Col>
+                <Col xs={12} md={6}>
+                    <div className="right-column">
+                        <h1><span>My name is </span><span class="name">Gabriela Ivonne Lopez-Salgado</span></h1>
+                        <h1>{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                        <p>My passion lies in computing all of the possible edge cases within a system.  I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
+                    </div>
+                </Col>
+            </Container>
+            <div className="space"></div>
+        </section>
+    )
+}
+
+/*
+
+
+    return (
+        <section className="banner" id="aboutMe">
+            <Container fluid>
+                // <Row className="align-items-center">
                     <Col xs={12} md={6}>
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
                     </Col>
@@ -59,10 +81,12 @@ export const Banner = () => {
                             <p>My passion lies in computing all of the possible edge cases within a system.  I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                         </div>
                     </Col>
-                </Row>
+              //  </Row>
             </Container>
             <div className="space"></div>
 
         </section>
     )
 }
+
+*/
