@@ -47,7 +47,7 @@ export const Banner = () => {
     }
 
     const resumeButtonClick = () => {
-        showResume(true); // Show the PDF when button is clicked
+        setshowResume(true); // Show the PDF when button is clicked
     }
 
 
