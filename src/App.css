@@ -402,7 +402,6 @@ nav.navbar .menuText {
 }
 
 .default-paragraph {
-  color: #333333;
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -416,19 +415,18 @@ nav.navbar .menuText {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 15px;
-  text-align: center;
-  color: #38cdff;
-  /* Example color change */
+  text-align: left;
+  margin-left: 20px;
+
 }
 
 .modified-paragraph {
-  color: #555555;
   font-size: 14px;
   letter-spacing: 0.6px;
   line-height: 1.4em;
-  text-align: center;
+  text-align: left;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /*********************************************** Footer ***********************************************/
