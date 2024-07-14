@@ -48,13 +48,12 @@ export const Banner = () => {
     }
 
     const resumeButtonClick = () => {
-        setShowResume(true); // Show the PDF when button is clicked
+        setShowResume(true); // Set showResume to true when button is clicked
     }
-
 
     return (
         <section className="banner" id="aboutMe">
-            <Container fluid>
+            <Container fluid className="container-max-width">
                 <Row>
                     <Col xs={12} md={6}>
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
@@ -62,9 +61,9 @@ export const Banner = () => {
                     <Col xs={12} md={6}>
                         {!showResume && (
                             <div className="right-column">
-                                <h1><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
-                                <h1>{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                <p>My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
+                                <h1 className="default-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
+                                <h1 className="default-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                                <p className="default-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                                 <button onClick={resumeButtonClick}>See Resume</button>
                             </div>
                         )}
@@ -74,9 +73,9 @@ export const Banner = () => {
                     <Row>
                         <Col xs={12} md={6}>
                             <div className="below-image">
-                                <h1><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
-                                <h1>{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                <p>My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
+                                <h1 className="modified-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
+                                <h1 className="modified-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                                <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                             </div>
                         </Col>
                         <Col xs={12} md={6}>

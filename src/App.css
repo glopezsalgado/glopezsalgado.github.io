@@ -393,6 +393,44 @@ nav.navbar .menuText {
   /* Add padding to the sides */
 }
 
+/* Default styles for headers and paragraphs */
+.default-header {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.default-paragraph {
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Styles for headers and paragraphs after resume button is pressed */
+.modified-header {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff3867;
+  /* Example color change */
+}
+
+.modified-paragraph {
+  color: #555555;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  line-height: 1.4em;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 /*********************************************** Footer ***********************************************/
 .footer {
   position: fixed;
