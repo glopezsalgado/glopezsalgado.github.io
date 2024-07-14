@@ -10,7 +10,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const [showResume, setShowResume] = useState(false);
+    const [showResume, setShowResume] = useState(false); // Define showResume state
     const toRotate = ["Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer"];
     const period = 2000;
 
@@ -20,7 +20,7 @@ export const Banner = () => {
         }, delta);
 
         return () => { clearInterval(ticker) };
-    }, [text]);
+    }, [text])
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -45,47 +45,53 @@ export const Banner = () => {
         } else {
             setIndex(prevIndex => prevIndex + 1);
         }
-    };
+    }
 
     const resumeButtonClick = () => {
-        setShowResume(true);
-    };
+        setShowResume(true); // Show the PDF when button is clicked
+    }
+
 
     return (
         <section className="banner" id="aboutMe">
-            <Container fluid className="container-max-width">
-                <Row className="flex-container">
-                    <Col xs={12} md={6}>
-                        <img className="circular-image-container" src={gabi} alt="Header Img" />
-                        {showResume && (
-                            <div className="below-image">
-                                <h1 className="modified-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
-                                <h1 className="modified-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
-                            </div>
-                        )}
-                    </Col>
-                    <Col xs={12} md={6} className="resume-container">
-                        <img className="circular-image-container" src={gabi} alt="Header Img" />
-                        {!showResume && (
+            <Container fluid>
+                {!showResume && (
+                    <Row>
+                        <Col xs={12} md={6}>
+                            <img className="circular-image-container" src={gabi} alt="Header Img" />
+                        </Col>
+                        <Col xs={12} md={6}>
                             <div className="right-column">
                                 <h1 className="default-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
                                 <h1 className="default-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                                 <p className="default-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                                 <button onClick={resumeButtonClick}>See Resume</button>
                             </div>
-                        )}
-                        {showResume && (
+                        </Col>
+                    </Row>
+                )}
+                {showResume && (
+                    <Row>
+                        <Col xs={12} md={6}>
+                            <img className="circular-image-container" src={gabi} alt="Header Img" />
+                            <div className="below-image">
+                                <h1 className="modified-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
+                                <h1 className="modified-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                                <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
+                            </div>
+                        </Col>
+
+                        <Col xs={12} md={6}>
                             <iframe
                                 src={resume}
-                                className="resume-iframe"
+                                style={{ width: '100%', height: '500px' }}
                                 title="Resume PDF Viewer"
                             ></iframe>
-                        )}
-                    </Col>
-                </Row>
+                        </Col>
+                    </Row>
+                )}
             </Container>
             <div className="space"></div>
         </section>
-    );
-};
+    )
+}
