@@ -66,6 +66,7 @@ export const Banner = () => {
                         )}
                     </Col>
                     <Col xs={12} md={6} className="resume-container">
+                        <img className="circular-image-container" src={gabi} alt="Header Img" />
                         {!showResume && (
                             <div className="right-column">
                                 <h1 className="default-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
