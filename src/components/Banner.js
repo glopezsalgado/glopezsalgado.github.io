@@ -84,7 +84,7 @@ export const Banner = () => {
                         <Col xs={12} md={6}>
                             <iframe
                                 src={resume}
-                                style={{ width: '100%', height: '500px' }}
+                                style={{ width: '100%', height: '800px' }}
                                 title="Resume PDF Viewer"
                             ></iframe>
                         </Col>
