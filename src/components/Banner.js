@@ -51,7 +51,6 @@ export const Banner = () => {
         setShowResume(true); // Show the PDF when button is clicked
     }
 
-
     return (
         <section className="banner" id="aboutMe">
             <Container fluid>
@@ -69,7 +68,8 @@ export const Banner = () => {
                             </div>
                         </Col>
                     </Row>
-                )}
+                )
+                }
                 {showResume && (
                     <Row>
                         <Col xs={12} md={6}>
@@ -80,16 +80,23 @@ export const Banner = () => {
                                 <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                             </div>
                         </Col>
-
                         <Col xs={12} md={6}>
-                            <iframe
-                                src={resume}
-                                style={{ width: '100%', height: '800px' }}
-                                title="Resume PDF Viewer"
-                            ></iframe>
+                            <div className="right-column">
+                                <div className="resume-container">
+                                    <iframe
+                                        src={resume}
+                                        className="resume-iframe"
+                                        title="Resume PDF Viewer"
+                                    ></iframe>
+                                </div>
+                            </div>
+
                         </Col>
                     </Row>
-                )}
+
+                )
+                }
+
             </Container>
             <div className="space"></div>
         </section>
