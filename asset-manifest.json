@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9678715f.css",
-    "main.js": "/static/js/main.005c5ea8.js",
+    "main.js": "/static/js/main.b65d45c2.js",
     "static/js/453.7717dffa.chunk.js": "/static/js/453.7717dffa.chunk.js",
     "static/media/PRgroup.jpeg": "/static/media/PRgroup.6738dbacf8e8f58c1f46.jpeg",
     "static/media/ROBsoldering.jpg": "/static/media/ROBsoldering.740dccd2f48b4cd7895f.jpg",
@@ -25,11 +25,11 @@
     "static/media/github-icon.png.webp": "/static/media/github-icon.png.df5a286f2102328ed289.webp",
     "index.html": "/index.html",
     "main.9678715f.css.map": "/static/css/main.9678715f.css.map",
-    "main.005c5ea8.js.map": "/static/js/main.005c5ea8.js.map",
+    "main.b65d45c2.js.map": "/static/js/main.b65d45c2.js.map",
     "453.7717dffa.chunk.js.map": "/static/js/453.7717dffa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9678715f.css",
-    "static/js/main.005c5ea8.js"
+    "static/js/main.b65d45c2.js"
   ]
 }
