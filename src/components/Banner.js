@@ -10,7 +10,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const [showResume, setShowResume] = useState(false); // Define showResume state
+    const [showResume, setShowResume] = useState(false);
     const toRotate = ["Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer"];
     const period = 2000;
 
@@ -20,7 +20,7 @@ export const Banner = () => {
         }, delta);
 
         return () => { clearInterval(ticker) };
-    }, [text])
+    }, [text]);
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -45,20 +45,27 @@ export const Banner = () => {
         } else {
             setIndex(prevIndex => prevIndex + 1);
         }
-    }
+    };
 
     const resumeButtonClick = () => {
-        setShowResume(true); // Set showResume to true when button is clicked
-    }
+        setShowResume(true);
+    };
 
     return (
         <section className="banner" id="aboutMe">
             <Container fluid className="container-max-width">
-                <Row className="align-items-center">
+                <Row className="flex-container">
                     <Col xs={12} md={6}>
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
+                        {showResume && (
+                            <div className="below-image">
+                                <h1 className="modified-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
+                                <h1 className="modified-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                                <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
+                            </div>
+                        )}
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className="resume-container">
                         {!showResume && (
                             <div className="right-column">
                                 <h1 className="default-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
@@ -67,29 +74,17 @@ export const Banner = () => {
                                 <button onClick={resumeButtonClick}>See Resume</button>
                             </div>
                         )}
-                    </Col>
-                </Row>
-                {showResume && (
-                    <Row>
-                        <Col xs={12} md={6}>
-                            <div className="below-image">
-                                <h1 className="modified-header"><span>My name is </span><span className="name">Gabriela Ivonne Lopez-Salgado</span></h1>
-                                <h1 className="modified-header">{`I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile iOS Developer", "Test Engineer", "Researcher", "Software Engineer", "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
-                            </div>
-                        </Col>
-                        <Col xs={12} md={6} className="resume-container"> {/* Apply container class */}
+                        {showResume && (
                             <iframe
                                 src={resume}
-                                className="resume-iframe" /* Apply iframe class */
-                                style={{ width: '100%', height: '500px' }}
+                                className="resume-iframe"
                                 title="Resume PDF Viewer"
                             ></iframe>
-                        </Col>
-                    </Row>
-                )}
+                        )}
+                    </Col>
+                </Row>
             </Container>
             <div className="space"></div>
         </section>
-    )
-}
+    );
+};
