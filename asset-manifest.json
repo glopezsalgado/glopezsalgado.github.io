@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c95b6b5b.css",
-    "main.js": "/static/js/main.0d8e8a08.js",
+    "main.css": "/static/css/main.d61c6210.css",
+    "main.js": "/static/js/main.2a872075.js",
     "static/js/453.7717dffa.chunk.js": "/static/js/453.7717dffa.chunk.js",
     "static/media/PRgroup.jpeg": "/static/media/PRgroup.6738dbacf8e8f58c1f46.jpeg",
     "static/media/ROBsoldering.jpg": "/static/media/ROBsoldering.740dccd2f48b4cd7895f.jpg",
+    "static/media/SantaElenaGroup.jpg": "/static/media/SantaElenaGroup.b3522771fd7b186f7cad.jpg",
     "static/media/PRarduinos.jpg": "/static/media/PRarduinos.f9e2571a8be8b635ac9f.jpg",
     "static/media/CRkids.jpg": "/static/media/CRkids.c798317433a076864d15.jpg",
     "static/media/WISEgroup.jpg": "/static/media/WISEgroup.44b7f00325a16d6d0a24.jpg",
@@ -24,12 +25,12 @@
     "static/media/lIn4-removebg-preview.png": "/static/media/lIn4-removebg-preview.5128739164d2a3a6ce81.png",
     "static/media/github-icon.png.webp": "/static/media/github-icon.png.df5a286f2102328ed289.webp",
     "index.html": "/index.html",
-    "main.c95b6b5b.css.map": "/static/css/main.c95b6b5b.css.map",
-    "main.0d8e8a08.js.map": "/static/js/main.0d8e8a08.js.map",
+    "main.d61c6210.css.map": "/static/css/main.d61c6210.css.map",
+    "main.2a872075.js.map": "/static/js/main.2a872075.js.map",
     "453.7717dffa.chunk.js.map": "/static/js/453.7717dffa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95b6b5b.css",
-    "static/js/main.0d8e8a08.js"
+    "static/css/main.d61c6210.css",
+    "static/js/main.2a872075.js"
   ]
 }
