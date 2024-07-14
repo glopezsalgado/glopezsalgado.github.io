@@ -68,8 +68,7 @@ export const Banner = () => {
                             </div>
                         </Col>
                     </Row>
-                )
-                }
+                )}
                 {showResume && (
                     <Row>
                         <Col xs={12} md={6}>
@@ -90,13 +89,9 @@ export const Banner = () => {
                                     ></iframe>
                                 </div>
                             </div>
-
                         </Col>
                     </Row>
-
-                )
-                }
-
+                )}
             </Container>
             <div className="space"></div>
         </section>
