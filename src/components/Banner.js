@@ -55,7 +55,7 @@ export const Banner = () => {
     return (
         <section className="banner" id="aboutMe">
             <Container fluid>
-                <Row className="align-items-center">
+                <Row>
                     <Col xs={12} md={6}>
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
                     </Col>
