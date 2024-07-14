@@ -54,7 +54,7 @@ export const Banner = () => {
     return (
         <section className="banner" id="aboutMe">
             <Container fluid className="container-max-width">
-                <Row>
+                <Row className="align-items-center">
                     <Col xs={12} md={6}>
                         <img className="circular-image-container" src={gabi} alt="Header Img" />
                     </Col>
@@ -78,9 +78,10 @@ export const Banner = () => {
                                 <p className="modified-paragraph">My passion lies in computing all of the possible edge cases within a system. I have experience with electronic circuit design, mobile app development, research, embedded systems, and technical documentation.</p>
                             </div>
                         </Col>
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={6} className="resume-container"> {/* Apply container class */}
                             <iframe
                                 src={resume}
+                                className="resume-iframe" /* Apply iframe class */
                                 style={{ width: '100%', height: '500px' }}
                                 title="Resume PDF Viewer"
                             ></iframe>

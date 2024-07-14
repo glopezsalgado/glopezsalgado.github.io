@@ -14,6 +14,8 @@ import DRvolunteers2 from "../assets/img/DominicanRepublic/DRvolunteers2.jpg";
 /* Costa Rica Images */
 import CRadults from "../assets/img/CostaRica/CRadults.jpg";
 import CRkids from "../assets/img/CostaRica/CRkids.jpg";
+import CRgroup from "../assets/img/CostaRica/SantaElenaGroup.jpg";
+
 
 /* WISE-RP Images */
 import WISEgathering from "../assets/img/WISE/WISEgathering.jpg";
@@ -82,6 +84,7 @@ export const MyCommunities = () => {
                 <div className="cr-images">
                     <img src={CRadults} alt="CRadults Img" className="horizontal-image" />
                     <img src={CRkids} alt="CRkids Img" className="horizontal-image" />
+                    <img src={CRgroup} alt="CRgroup Img" className="horizontal-image" />
                 </div>
                 <h4>2023 in La Vega, Dominican Republic</h4>
                 <p>In 2023, we held the SHPE’d Abroad program in the Dominican Republic for the first time. I managed and oversaw fundraising of $16,000 to sponsor 16 members for the program. Additionally, I co-developed the curriculum to teach two groups of 50 K-12 students about engineering through 12 personally designed lesson plans for 35 hours of instruction. During these instruction sessions, students learned about the work and academic responsibilities in various engineering fields, 3D design and research with a focus on space, coding in C, and robotics using Arduinos.</p>
