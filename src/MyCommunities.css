@@ -1,0 +1,234 @@
+/************************************* MY COMMUNITIES *************************************/
+
+.myCommunities {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.myCommunities p {
+    text-align: justify;
+    vertical-align: text-top;
+}
+
+.myCommunities h2 {
+    padding-top: 40px;
+    text-align: left;
+    color: rgb(255, 56, 103);
+}
+
+.myCommunities h3 {
+    text-align: left;
+}
+
+.myCommunities h4 {
+    padding-top: 40px;
+    color: rgb(255, 56, 103);
+}
+
+
+/************************************* PODCASTING *************************************/
+/*.myCommunities .podcasting {
+    padding-right: 50px;
+}
+*/
+
+/*
+Looks like '.row' will align the stuff horizontally
+'.column' will align contenty vertically
+
+
+
+having just 'row' in the js file makes it so that everything in
+its divider will be an item row. It will only list them downwards.
+
+Meanwhile, having 'row' with nested 'column's makes it so that 
+everything encapsulated by the 'column' is a literal column 
+within the row.
+*/
+
+
+.myCommunities .video-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .myCommunities .podcasting .row {
+        /* Aapparently .row is a key word */
+        flex-direction: column;
+
+    }
+
+    .myCommunities .podcasting .right {
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .myCommunities .podcasting .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*
+.myCommunities .podcasting .column {
+    flex: 1;
+    padding: 10px;
+}
+*/
+
+
+/************************************* SHPE ABROAD *************************************/
+.myCommunities .costa-rica {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.myCommunities .costa-rica img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+    align-self: center;
+}
+
+.myCommunities .dominican-republic {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.myCommunities .dominican-republic img {
+    max-height: 300px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.myCommunities .dominican-republic .vertical-image img {
+    height: 100%;
+    width: auto;
+}
+
+.myCommunities .dominican-republic .horizontal-image img {
+    height: auto;
+    width: 100%;
+}
+
+
+.myCommunities .puerto-rico {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns, adjust as needed */
+    gap: 55px;
+
+    /*padding-left: 50px;
+    padding-right: 50px;
+      justify-content: space-between;
+  */
+    margin: 0 100px;
+    justify-content: center;
+    object-fit: cover;
+
+}
+
+
+.myCommunities .puerto-rico img {
+    max-height: 300px;
+    /* Set this to your desired height */
+    object-fit: cover;
+    /* Ensures the image covers the area without stretching */
+    align-items: center;
+}
+
+.myCommunities .puerto-rico .vertical-image img {
+    max-height: 200px;
+    object-fit: cover;
+    width: auto;
+}
+
+.myCommunities .puerto-rico .horizontal-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/************************************* WISE RP *************************************/
+.myCommunities .WISE-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns, adjust as needed */
+    gap: 10px;
+
+    /*padding-left: 50px;
+    padding-right: 50px;
+      justify-content: space-between;
+  */
+    margin: 0 70px;
+    justify-content: center;
+    /*align-items: center;*/
+
+    max-height: 300px;
+    object-fit: cover;
+    width: auto;
+    align-items: right;
+}
+
+.myCommunities .WISE-images img {
+    max-height: 300px;
+    object-fit: cover;
+    width: auto;
+    align-items: center;
+}
+
+
+.myCommunities .column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+.myCommunities .row {
+    padding-right: 50px;
+}
+
+.myCommunities .left {
+    text-align: left;
+}
+
+.myCommunities .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.myCommunities .prev,
+.myCommunities .next {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .myCommunities .row {
+        flex-direction: column;
+    }
+
+    .myCommunities .right {
+        text-align: center;
+    }
+}

@@ -1,0 +1,86 @@
+/********************************** TECHNICAL EXPERIENCE **********************************/
+
+/* Dates */
+.timeline-item .left h2 {
+    text-align: right;
+    padding-right: 40px;
+    white-space: nowrap;
+}
+
+/* Company */
+.timeline-item .right h2 {
+    color: rgb(255, 56, 103);
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 50px;
+    white-space: nowrap;
+}
+
+/* Position */
+.timeline-item .right h3 {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 50px;
+    white-space: nowrap;
+}
+
+/* Experience Bullet Points */
+.timeline-item .right ul {
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+/* Experience Bullet Points */
+.timeline-item .right li {
+    text-align: justify;
+}
+
+
+/* Vertical line in the middle of the timeline */
+.timeline-item::before {
+    content: "";
+    /* Empty content for the pseudo-element */
+    position: absolute;
+    /* Absolute positioning for the line */
+    width: 2px;
+    /* Width of the vertical line */
+    background-color: rgb(255, 56, 103);
+    /* color for the vertical line */
+    top: 0;
+    /* Start at the top of the timeline */
+    bottom: 0;
+    /* Stretch to the bottom of the timeline */
+    left: 20%;
+    /* Position the line in the middle */
+    margin-left: -1px;
+    /* Center the line precisely */
+}
+
+/* Individual timeline item styling */
+.timeline-item {
+    padding: 20px;
+    /* Padding inside each timeline item */
+    background: #fff;
+    /* White background for each timeline item */
+    border-radius: 5px;
+    /* Rounded corners for each timeline item */
+    margin: 10px 0;
+    /* Margin between each timeline item */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for each timeline item */
+    display: flex;
+    /* Flexbox layout for content alignment */
+    justify-content: space-between;
+    /* Space between left and right content */
+    position: relative;
+    /* Relative positioning for timeline item */
+}
+
+#timeline {
+    width: 90%;
+    /* Width of the timeline container */
+    margin: 50px auto;
+    /* Center the timeline container with margin */
+    position: relative;
+    /* Relative positioning for the container */
+}

@@ -379,7 +379,7 @@ nav.navbar .menuText {
 
 .below-image h1,
 .below-image p {
-  text-align: left;
+  text-align: center;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -438,27 +438,17 @@ nav.navbar .menuText {
   /* Space out items */
 }
 
-/* Style for the resume iframe container */
+
 .resume-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin-top: 20px;
-  /* Adjust as needed */
-  margin-bottom: 20px;
-  /* Adjust as needed */
 }
 
-/* Style for the resume iframe */
 .resume-iframe {
   width: 100%;
   height: 500px;
-  border: 2px solid #ff3867;
-  /* Example border styling */
-  border-radius: 8px;
-  /* Example rounded corners */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .banner .right-column {
   text-align: left;
@@ -624,253 +614,4 @@ nav.navbar .menuText {
   to {
     transform: rotate(360deg);
   }
-}
-
-/************************************* MY COMMUNITIES *************************************/
-.myCommunities p {
-  text-align: justify;
-  vertical-align: text-top;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.myCommunities h2 {
-  padding-top: 40px;
-  text-align: left;
-  padding-left: 50px;
-  color: rgb(255, 56, 103);
-}
-
-.myCommunities h3 {
-  text-align: left;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.myCommunities h4 {
-  padding-top: 40px;
-  color: rgb(255, 56, 103);
-}
-
-.myCommunities .cr-images {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* 3 columns, adjust as needed */
-  gap: 10px;
-
-  /*padding-left: 50px;
-  padding-right: 50px;
-    justify-content: space-between;
-*/
-  margin: 0 100px;
-  justify-content: center;
-  /*align-items: center;*/
-
-  object-fit: cover;
-  width: auto;
-  align-items: right;
-  padding-right: 50px;
-}
-
-.myCommunities .cr-images img {
-  max-height: 300px;
-  object-fit: cover;
-  width: auto;
-  align-items: center;
-}
-
-.myCommunities .column {
-  flex: 1;
-  padding: 10px;
-}
-
-.myCommunities .row {
-  padding-right: 50px;
-}
-
-.myCommunities .left {
-  text-align: left;
-}
-
-.myCommunities .right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.myCommunities .video-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.myCommunities .prev,
-.myCommunities .next {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-@media (max-width: 600px) {
-  .myCommunities .row {
-    flex-direction: column;
-  }
-
-  .myCommunities .right {
-    text-align: center;
-  }
-}
-
-
-.myCommunities .WISE-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* 3 columns, adjust as needed */
-  gap: 10px;
-
-  /*padding-left: 50px;
-  padding-right: 50px;
-    justify-content: space-between;
-*/
-  margin: 0 70px;
-  justify-content: center;
-  /*align-items: center;*/
-
-  max-height: 300px;
-  object-fit: cover;
-  width: auto;
-  align-items: right;
-}
-
-.myCommunities .WISE-images img {
-  max-height: 300px;
-  object-fit: cover;
-  width: auto;
-  align-items: center;
-}
-
-
-.myCommunities .puerto-rico-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* 3 columns, adjust as needed */
-  gap: 10px;
-
-  /*padding-left: 50px;
-  padding-right: 50px;
-    justify-content: space-between;
-*/
-  margin: 0 50px;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.myCommunities .puerto-rico-images img {
-  max-height: 200px;
-  /* Set this to your desired height */
-  object-fit: cover;
-  /* Ensures the image covers the area without stretching */
-  width: auto;
-  align-items: center;
-}
-
-.myCommunities .puerto-rico-images .vertical-image img {
-  max-height: 200px;
-  object-fit: cover;
-  width: auto;
-}
-
-.myCommunities .puerto-rico-images .horizontal-image img {
-  width: 100%;
-  height: auto;
-}
-
-
-/********************************** TECHNICAL EXPERIENCE **********************************/
-
-/* Dates */
-.timeline-item .left h2 {
-  text-align: right;
-  padding-right: 40px;
-  white-space: nowrap;
-}
-
-/* Company */
-.timeline-item .right h2 {
-  color: rgb(255, 56, 103);
-  text-align: left;
-  padding-left: 40px;
-  padding-right: 50px;
-  white-space: nowrap;
-}
-
-/* Position */
-.timeline-item .right h3 {
-  text-align: left;
-  padding-left: 40px;
-  padding-right: 50px;
-  white-space: nowrap;
-}
-
-/* Experience Bullet Points */
-.timeline-item .right ul {
-  padding-left: 40px;
-  padding-right: 50px;
-}
-
-/* Experience Bullet Points */
-.timeline-item .right li {
-  text-align: justify;
-}
-
-
-/* Vertical line in the middle of the timeline */
-.timeline-item::before {
-  content: "";
-  /* Empty content for the pseudo-element */
-  position: absolute;
-  /* Absolute positioning for the line */
-  width: 2px;
-  /* Width of the vertical line */
-  background-color: rgb(255, 56, 103);
-  /* color for the vertical line */
-  top: 0;
-  /* Start at the top of the timeline */
-  bottom: 0;
-  /* Stretch to the bottom of the timeline */
-  left: 20%;
-  /* Position the line in the middle */
-  margin-left: -1px;
-  /* Center the line precisely */
-}
-
-/* Individual timeline item styling */
-.timeline-item {
-  padding: 20px;
-  /* Padding inside each timeline item */
-  background: #fff;
-  /* White background for each timeline item */
-  border-radius: 5px;
-  /* Rounded corners for each timeline item */
-  margin: 10px 0;
-  /* Margin between each timeline item */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-  /* Subtle shadow for each timeline item */
-  display: flex;
-  /* Flexbox layout for content alignment */
-  justify-content: space-between;
-  /* Space between left and right content */
-  position: relative;
-  /* Relative positioning for timeline item */
-}
-
-#timeline {
-  width: 90%;
-  /* Width of the timeline container */
-  margin: 50px auto;
-  /* Center the timeline container with margin */
-  position: relative;
-  /* Relative positioning for the container */
 }
