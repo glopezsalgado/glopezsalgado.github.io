@@ -125,9 +125,9 @@ within the row.
 
 .myCommunities .puerto-rico {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, auto);
     justify-content: center;
-    gap: 0;
+    gap: 20px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -156,15 +156,35 @@ within the row.
 */
 
 /************************************* WISE RP *************************************/
+
+.myCommunities .WISE {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.myCommunities .WISE img {
+    max-height: 250px;
+    width: auto;
+    object-fit: contain;
+    padding-left: 40px;
+
+    padding-right: 40px;
+}
+
+.myCommunities .WISE {
+    justify-items: center;
+}
+
+
+
 .myCommunities .WISE-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columns, adjust as needed */
     gap: 10px;
-
-    /*padding-left: 50px;
-    padding-right: 50px;
-  */
     margin: 0 70px;
     justify-content: center;
 

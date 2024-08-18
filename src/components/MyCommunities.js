@@ -5,6 +5,8 @@ import { Container } from "react-bootstrap";
 import PRarduinos from "../assets/img/PuertoRico/PRarduinos.jpg";
 import PRsoldering from "../assets/img/PuertoRico/PRsoldering.jpg";
 import PRgroup from "../assets/img/PuertoRico/PRgroup.jpeg";
+import PRgirl from "../assets/img/PuertoRico/PRninaprograma.jpg";
+import PRjim from "../assets/img/PuertoRico/PRjim.jpg";
 
 /* Dominican Republic  Images */
 import DRgirls from "../assets/img/DominicanRepublic/DRgirls.jpg";
@@ -103,31 +105,32 @@ export const MyCommunities = () => {
                 </div>
                 <h4>2022 in Puerto Rico</h4>
                 <div className="puerto-rico">
+                    <p>May 2022 marks the first time I participated in the SHPE’d Abroad program! That year, the program took place in Bayamon, Puerto Rico at the Escuela Especializada en Ciencias y Matematicas Papa Juan XXII. That year, lessons focused on teaching about higher level education and different engineering fields with hands on Arduino experience. </p>
                     <img src={PRarduinos} alt="PRarduinos Img" />
                     <img src={PRsoldering} alt="PRsoldering Img" />
                     <img src={PRgroup} alt="PRgroup Img" />
+                    <img src={PRgirl} alt="PRgirl Img" />
+                    <img src={PRjim} alt="PRjim Img" />
+
+
                 </div>
 
                 {/************************************* WISE RP *************************************/}
                 <h2>Women In Science and Engineering - Residence Program (WISE-RP)</h2>
-                <div className="row">
-                    <div className="column left">
-                        <p>WISE-RP is a living-learning community at the University of Michigan for gender-minoritized students pursuing careers in science, technology, engineering, or mathematics. I joined WISE-RP in the fall of 2021 as a member and returned the following year as a Peer Mentor. In this role, I planned 30 personal, academic, and professional development sessions to help 8 first-year students transition to college life.</p>
-                    </div>
-                    <div className="column right">
-                        <div className="WISE-images">
-                            <img src={WISEgathering} alt="WISEgathering Img" className="vertical-image" />
-                            <img src={WISEgroup} alt="WISEgroup Img" className="horizontal-image" />
-                            <img src={WISEpresentation} alt="WISEpresentation Img" className="vertical-image" />
-                        </div>
-                    </div>
+
+                <div className="WISE">
+                    <p>WISE-RP is a living-learning community at the University of Michigan for gender-minoritized students pursuing careers in science, technology, engineering, or mathematics. I joined WISE-RP in the fall of 2021 as a member and returned the following year as a Peer Mentor. In this role, I planned 30 personal, academic, and professional development sessions to help 8 first-year students transition to college life.</p>
+                    <img src={WISEgathering} alt="WISEgathering Img" />
+                    <img src={WISEgroup} alt="WISEgroup Img" />
+                    <img src={WISEpresentation} alt="WISEpresentation Img" />
                 </div>
+
 
 
                 <h2>Michigan Robotics Department</h2>
                 <div className="row">
                     <div className="column left">
-                        <p>????.</p>
+                        <p>????</p>
                     </div>
                     <div className="column right">
                         <img src={ROBsoldering} alt="ROB Soldering Img" />
