@@ -102,65 +102,58 @@ within the row.
 }
 
 .myCommunities .dominican-republic {
+
     display: grid;
     grid-template-columns: repeat(4, auto);
-    /* Make columns flexible */
-    gap: 40px;
-    /* Add a consistent gap */
     justify-content: center;
+    gap: 20px;
     width: 100%;
     box-sizing: border-box;
+
 }
 
 .myCommunities .dominican-republic img {
     max-height: 250px;
-    /* Ensure all images are the same height */
-    object-fit: cover;
-    /* Cover the space without distorting */
     width: auto;
+    object-fit: contain;
+
 }
 
-.myCommunities .dominican-republic .vertical-image img {}
-
-.myCommunities .dominican-republic .horizontal-image img {}
-
+.myCommunities .dominican-republic {
+    justify-items: center;
+}
 
 .myCommunities .puerto-rico {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columns, adjust as needed */
-    gap: 55px;
-
-    /*padding-left: 50px;
-    padding-right: 50px;
-      justify-content: space-between;
-  */
-    margin: 0 100px;
     justify-content: center;
-    object-fit: cover;
-
+    gap: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
-
 
 .myCommunities .puerto-rico img {
-    max-height: 300px;
-    /* Set this to your desired height */
-    object-fit: cover;
-    /* Ensures the image covers the area without stretching */
-    align-items: center;
+    max-height: 250px;
+    width: auto;
+    object-fit: contain;
 }
 
-.myCommunities .puerto-rico .vertical-image img {
+.myCommunities .puerto-rico {
+    justify-items: center;
+}
+
+
+/*
+.myCommunities .purico .vertical-image img {
     max-height: 200px;
-    object-fit: cover;
     width: auto;
 }
 
-.myCommunities .puerto-rico .horizontal-image img {
+.myCommunities .puo .horizontal-image img {
     width: 100%;
     height: auto;
 }
-
+*/
 
 /************************************* WISE RP *************************************/
 .myCommunities .WISE-images {
@@ -171,11 +164,9 @@ within the row.
 
     /*padding-left: 50px;
     padding-right: 50px;
-      justify-content: space-between;
   */
     margin: 0 70px;
     justify-content: center;
-    /*align-items: center;*/
 
     max-height: 300px;
     object-fit: cover;

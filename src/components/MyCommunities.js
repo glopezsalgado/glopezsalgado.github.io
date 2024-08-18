@@ -87,9 +87,9 @@ export const MyCommunities = () => {
                 <p>This year, we expanded the program to teach 50 K-12 students in the mornings and 60 adults, aged 20 to 60, in an evening school. I managed and oversaw fundraising of $19,650.39, sponsoring 16 members for SHPE’d Abroad in Costa Rica. I also co-developed a curriculum to teach the K-12 students aspects of robotics and 3D design with a focus on space, while adults learned how to utilize a computer and Microsoft programs. I created 6 lesson plans for 18 hours of instruction. This experience was particularly unique as none of the adults had ever used a computer. We had the privilege of teaching the adults to become internet autodidacts. Our primary goal was preparing them to be capable and encouraging them to continue learning for themselves beyond the end of our program.</p><p>During our community service trip, we also explored Costa Rica's natural beauty, engaging in activities like white-water rafting, beach relaxation, hiking in the Santa Elena Cloud Forest Reserve, snorkeling at Isla Tortuga, and horseback riding.
                 </p>
                 <div className="costa-rica">
-                    <img src={CRkids} alt="CRkids Img" className="horizontal-image" />
-                    <img src={CRadults} alt="CRadults Img" className="horizontal-image" />
-                    <img src={CRgroup} alt="CRgroup Img" className="horizontal-image" />
+                    <img src={CRkids} alt="CRkids Img" />
+                    <img src={CRadults} alt="CRadults Img" />
+                    <img src={CRgroup} alt="CRgroup Img" />
                 </div>
                 <h4>2023 in La Vega, Dominican Republic</h4>
                 <p>In 2023, we held the SHPE’d Abroad program in the Dominican Republic for the first time. I managed and oversaw fundraising of $16,000 to sponsor 16 members for the program. Additionally, I co-developed the curriculum to teach two groups of 50 K-12 students about engineering through 12 personally designed lesson plans for 35 hours of instruction. During these instruction sessions, students learned about the work and academic responsibilities in various engineering fields, 3D design and research with a focus on space, coding in C, and robotics using Arduinos.</p>
@@ -102,10 +102,10 @@ export const MyCommunities = () => {
 
                 </div>
                 <h4>2022 in Puerto Rico</h4>
-                <div className="dominican-republic">
-                    <img src={PRarduinos} alt="PRarduinos Img" className="horizontal-image" />
-                    <img src={PRsoldering} alt="PRsoldering Img" className="vertical-image" />
-                    <img src={PRgroup} alt="PRgroup Img" className="horizontal-image" />
+                <div className="puerto-rico">
+                    <img src={PRarduinos} alt="PRarduinos Img" />
+                    <img src={PRsoldering} alt="PRsoldering Img" />
+                    <img src={PRgroup} alt="PRgroup Img" />
                 </div>
 
                 {/************************************* WISE RP *************************************/}
