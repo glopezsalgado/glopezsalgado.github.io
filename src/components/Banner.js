@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import gabi from "../assets/img/gabi.png";
 import 'animate.css';
-import resume from "../assets/img/Gabriela Ivonne Lopez-Salgado - Resume Fall 2023.pdf";
+import resume from "../assets/img/Gabriela Ivonne Lopez-Salgado | August 2024 Resume.pdf";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);

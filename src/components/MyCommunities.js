@@ -10,6 +10,7 @@ import PRgroup from "../assets/img/PuertoRico/PRgroup.jpeg";
 import DRgirls from "../assets/img/DominicanRepublic/DRgirls.jpg";
 import DRvolunteers from "../assets/img/DominicanRepublic/DRvolunteers.jpg";
 import DRvolunteers2 from "../assets/img/DominicanRepublic/DRvolunteers2.jpg";
+import DRboat from "../assets/img/DominicanRepublic/DRboat.jpg";
 
 /* Costa Rica Images */
 import CRadults from "../assets/img/CostaRica/CRadults.jpg";
@@ -91,12 +92,14 @@ export const MyCommunities = () => {
                     <img src={CRgroup} alt="CRgroup Img" className="horizontal-image" />
                 </div>
                 <h4>2023 in La Vega, Dominican Republic</h4>
+                <p>In 2023, we held the SHPE’d Abroad program in the Dominican Republic for the first time. I managed and oversaw fundraising of $16,000 to sponsor 16 members for the program. Additionally, I co-developed the curriculum to teach two groups of 50 K-12 students about engineering through 12 personally designed lesson plans for 35 hours of instruction. During these instruction sessions, students learned about the work and academic responsibilities in various engineering fields, 3D design and research with a focus on space, coding in C, and robotics using Arduinos.</p>
+                <p>Alongside my work with the SHPE’d Abroad program, I made a dedicated effort to provide volunteers the opportunity to familiarize themselves with Dominican culture. We visited the ruins of La Vega Vieja on a guided tour to learn about the area's history, and explored other notable landmarks, such as crossing La Presa de Tavera. We also experienced the natural beauty of the country by visiting the beaches in Puerto Plata and Catalina Island, further immersing ourselves in the vibrant culture and landscape of the Dominican Republic.</p>
                 <div className="dominican-republic">
-                    <p>In 2023, we held the SHPE’d Abroad program in the Dominican Republic for the first time. I managed and oversaw fundraising of $16,000 to sponsor 16 members for the program. Additionally, I co-developed the curriculum to teach two groups of 50 K-12 students about engineering through 12 personally designed lesson plans for 35 hours of instruction. During these instruction sessions, students learned about the work and academic responsibilities in various engineering fields, 3D design and research with a focus on space, coding in C, and robotics using Arduinos.</p>
+                    <img src={DRvolunteers2} alt="DRvolunteers2 Img" />
+                    <img src={DRgirls} alt="DRgirls Img" />
+                    <img src={DRvolunteers} alt="DRvolunteers Img" />
+                    <img src={DRboat} alt="DRboat Img" />
 
-                    <img src={DRvolunteers2} alt="DRvolunteers2 Img" className="horizontal-image" />
-                    <img src={DRgirls} alt="DRgirls Img" className="vertical-image" />
-                    <img src={DRvolunteers} alt="DRvolunteers Img" className="horizontal-image" />
                 </div>
                 <h4>2022 in Puerto Rico</h4>
                 <div className="dominican-republic">

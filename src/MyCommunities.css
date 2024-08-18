@@ -104,27 +104,25 @@ within the row.
 .myCommunities .dominican-republic {
     display: grid;
     grid-template-columns: repeat(4, auto);
+    /* Make columns flexible */
     gap: 40px;
+    /* Add a consistent gap */
     justify-content: center;
     width: 100%;
     box-sizing: border-box;
 }
 
 .myCommunities .dominican-republic img {
-    max-height: 300px;
+    max-height: 250px;
+    /* Ensure all images are the same height */
     object-fit: cover;
-    align-self: center;
-}
-
-.myCommunities .dominican-republic .vertical-image img {
-    height: 100%;
+    /* Cover the space without distorting */
     width: auto;
 }
 
-.myCommunities .dominican-republic .horizontal-image img {
-    height: auto;
-    width: 100%;
-}
+.myCommunities .dominican-republic .vertical-image img {}
+
+.myCommunities .dominican-republic .horizontal-image img {}
 
 
 .myCommunities .puerto-rico {
