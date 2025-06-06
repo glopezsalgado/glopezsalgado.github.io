@@ -2,6 +2,8 @@
 import './App.css';
 import './MyCommunities.css';
 import './TechnicalExperience.css';
+import './Banner.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";

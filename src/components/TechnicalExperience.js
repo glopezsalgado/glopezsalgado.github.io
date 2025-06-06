@@ -103,31 +103,3 @@ export const TechnicalExperience = () => {
         </div>
     );
 };
-
-
-/*
-export const TechnicalExperience = () => {
-    return (
-        <div id="timeline">
-            {resumeTechData.map((job, index) => (
-                <div className="timeline-item" key={index}>
-                    <div className="left">
-                        <h2>{job.startDate} -</h2>
-                        <h2>{job.endDate}&nbsp;&nbsp;</h2>
-                    </div>
-                    <div className="right">
-                        <h2>{job.company}</h2>
-                        <h3>{job.position}</h3>
-                        <ul>
-                            {job.experience.map((exp, i) => (
-                                <li key={i}>{exp}</li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-            ))}
-        </div>
-    );
-}
-
-*/

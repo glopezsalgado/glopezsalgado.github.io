@@ -1,0 +1,160 @@
+/*********************************************** Banner ***********************************************/
+.above-line {
+    padding-left: 30px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.banner .space {
+    padding-bottom: 60px;
+}
+
+.banner {
+    margin-top: 0;
+    padding: 130px 0px;
+    background-color: #ffffff;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.banner p {
+    color: #333333;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-align: left;
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.05px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: left;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.banner .name {
+    color: rgb(255, 56, 103);
+}
+
+.banner .row {
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 0px;
+}
+
+.banner .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .col-md-6:last-child {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.banner .circular-image-container {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 0px;
+    padding-right: 0;
+    border: 5px solid rgb(255, 56, 103);
+}
+
+/* Typing Text */
+.txt-rotate>.wrap {
+    border-right: 0.08em solid #666;
+    text-align: left;
+    color: rgb(255, 56, 103);
+
+}
+
+.below-image h1,
+.below-image p {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-max-width {
+    max-width: 1200px;
+    /* Set your desired maximum width */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 0 20px;
+    /* Add padding to the sides */
+}
+
+/* Default styles for headers and paragraphs */
+.default-header {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.default-paragraph {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Styles for headers and paragraphs after resume button is pressed */
+.modified-header {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 50px;
+
+}
+
+.modified-paragraph {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    line-height: 1.4em;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+/* Ensure the row is a flex container */
+.flex-container {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+    justify-content: space-between;
+    /* Space out items */
+}
+
+
+.resume-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+.banner .right-column {
+    text-align: left;
+}
