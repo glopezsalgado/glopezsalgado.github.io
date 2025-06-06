@@ -5,18 +5,25 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const resumeTechData = [
     {
+        company: "Apple, Sensing and Connectivity",
+        position: "Software Engineer Intern",
+        startDate: "May 2025",
+        endDate: "Present",
+        experience: [
+            "",
+        ]
+    },
+    {
         company: "The Boeing Company, Flight Efficiency Solutions",
         position: "Engineer Intern",
         startDate: "June 2024",
         endDate: "August 2024",
         experience: [
-            "Automated Onboard Performance Tool (OPT) value analysis comparing real-world with OPT calculated taxi/takeoff/landing performance data and expanded functionality to include engine degradation using the assumed temperature method.",
+            "Automated Onboard Performance Tool (OPT) value analysis comparing real-world with OPT calculated taxi, takeoff, and landing performance data and expanded functionality to include engine degradation using the assumed temperature method.",
             "Streamlined legacy code by integrating MATLAB and C++ into a cohesive executable, enhancing user experience and operational efficiency, highlighting potential cost savings to airlines using OPT.",
             "Conducted comprehensive testing for the iOS OPT application, ensuring compatibility with the Onboard Network Server (ONS) systems installed on 777X and 787 aircraft, to confirm its reliability for operational use.",
             "Tested the Class 3 Electronic Flight Bag (EFB) application installed on embedded cockpit systems to validate its performance.",
             "Evaluated the functionality of RouteSync API via ACARS to ensure accurate and efficient transmission of performance data.",
-            "Led a team in designing improvements for 777 and 787 economy seats by conducting market research and consulting subject matter experts (SMEs), refining the problem scope for better sleeping comfort on long-haul flights.",
-            "Developed a business plan to replace subset of economy seats with FAA-compliant sleeping pods, presenting to key leaders a projection of $1.9M to $14M in annual revenue per aircraft through competitive pricing and market differentiation."
         ]
     },
     {
@@ -72,7 +79,33 @@ const resumeTechData = [
     }
 ];
 
+export const TechnicalExperience = () => {
+    return (
+        <div id="timeline">
+            {resumeTechData.map((job, index) => (
+                <div className="timeline-item" key={index}>
+                    <div className="left">
+                        <h2>{job.startDate} -</h2>
+                        <h2>{job.endDate}&nbsp;&nbsp;</h2>
+                    </div>
+                    <div className="right">
+                        <h2>{job.company}</h2>
+                        <h3>{job.position}</h3>
+                        <ul>
+                            {job.experience.map((exp, i) => (
+                                <li key={i}>{exp}</li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="timeline-dot"></div>
+                </div>
+            ))}
+        </div>
+    );
+};
 
+
+/*
 export const TechnicalExperience = () => {
     return (
         <div id="timeline">
@@ -97,12 +130,4 @@ export const TechnicalExperience = () => {
     );
 }
 
-/*
-export const TechnicalExperience = () => {
-    return (
-        <h3>Embedded Systems</h3>
-    );
-};
 */
-
-/*export default TechnicalExperience;*/

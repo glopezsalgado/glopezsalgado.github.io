@@ -1,86 +1,90 @@
 /********************************** TECHNICAL EXPERIENCE **********************************/
-
-/* Dates */
-.timeline-item .left h2 {
-    text-align: right;
-    padding-right: 40px;
-    white-space: nowrap;
+#timeline {
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
 }
 
-/* Company */
+/* Continuous vertical timeline */
+#timeline::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: rgb(255, 56, 103);
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    margin-left: -1px;
+    z-index: 1;
+}
+
+.timeline-item {
+    padding: 20px 0;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: relative;
+}
+
+/* Timeline dot styling */
+.timeline-dot {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 56, 103);
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 0 0 4px rgba(255, 56, 103, 0.2);
+}
+
+/* Left column (dates) */
+.timeline-item .left {
+    width: 20%;
+    padding-right: 40px;
+    text-align: right;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.timeline-item .left h2 {
+    white-space: nowrap;
+    margin: 0;
+    padding: 2px 0;
+}
+
+/* Right column (content) */
+.timeline-item .right {
+    width: 80%;
+    padding-left: 40px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
 .timeline-item .right h2 {
     color: rgb(255, 56, 103);
     text-align: left;
-    padding-left: 40px;
-    padding-right: 50px;
     white-space: nowrap;
+    margin: 0 0 5px 0;
 }
 
-/* Position */
 .timeline-item .right h3 {
     text-align: left;
-    padding-left: 40px;
-    padding-right: 50px;
     white-space: nowrap;
+    margin: 0 0 10px 0;
+    font-weight: normal;
 }
 
-/* Experience Bullet Points */
 .timeline-item .right ul {
-    padding-left: 40px;
-    padding-right: 50px;
+    padding-left: 20px;
+    margin: 0;
 }
 
-/* Experience Bullet Points */
 .timeline-item .right li {
-    text-align: justify;
-}
-
-
-/* Vertical line in the middle of the timeline */
-.timeline-item::before {
-    content: "";
-    /* Empty content for the pseudo-element */
-    position: absolute;
-    /* Absolute positioning for the line */
-    width: 2px;
-    /* Width of the vertical line */
-    background-color: rgb(255, 56, 103);
-    /* color for the vertical line */
-    top: 0;
-    /* Start at the top of the timeline */
-    bottom: 0;
-    /* Stretch to the bottom of the timeline */
-    left: 20%;
-    /* Position the line in the middle */
-    margin-left: -1px;
-    /* Center the line precisely */
-}
-
-/* Individual timeline item styling */
-.timeline-item {
-    padding: 20px;
-    /* Padding inside each timeline item */
-    background: #fff;
-    /* White background for each timeline item */
-    border-radius: 5px;
-    /* Rounded corners for each timeline item */
-    margin: 10px 0;
-    /* Margin between each timeline item */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for each timeline item */
-    display: flex;
-    /* Flexbox layout for content alignment */
-    justify-content: space-between;
-    /* Space between left and right content */
-    position: relative;
-    /* Relative positioning for timeline item */
-}
-
-#timeline {
-    width: 90%;
-    /* Width of the timeline container */
-    margin: 50px auto;
-    /* Center the timeline container with margin */
-    position: relative;
-    /* Relative positioning for the container */
+    text-align: left;
+    margin-bottom: 5px;
 }
